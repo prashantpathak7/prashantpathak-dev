@@ -1,0 +1,134 @@
+/* Base styles for all screens */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 60px;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.9); /* Black background with opacity */
+  display: flex;
+  justify-content: space-between; /* Space between brand and menu */
+  align-items: center;
+  color: white;
+  z-index: 1000;
+  transition: padding 0.3s ease;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+/* Default non-selected menu items (gray color) */
+.navbar-menu a {
+  color: gray; /* Gray for non-active links */
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+  text-decoration: underline;
+  color: #e0e0e0; /* Hover color effect */
+}
+
+/* Active menu item (dark white color) */
+.navbar-menu a.active {
+  color: #f5f5f5; /* Dark white for active menu */
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.3s ease;
+}
+
+/* Tablet and iPad (landscape) */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 20px 40px;
+  }
+
+  .navbar-brand {
+    font-size: 1.3em;
+  }
+
+  .navbar-menu a {
+    margin: 0 8px;
+  }
+}
+
+/* Tablet and iPad (portrait) */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px 30px;
+  }
+
+  .navbar-brand {
+    font-size: 1.2em;
+  }
+
+  .navbar-menu {
+    position: absolute;
+    top: 60px; /* Just below the navbar */
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    align-items: center;
+    display: none; /* Hidden by default */
+  }
+
+  .navbar-menu a {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .hamburger {
+    display: flex; /* Show hamburger on small screens */
+    position: absolute;
+    right: 20px; /* Align it to the right side of the screen */
+  }
+
+  /* Toggle Menu Visibility */
+  .navbar-menu.open {
+    display: flex; /* Show the menu when open */
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 20px 40px;
+    flex-direction: row; /* Align brand and hamburger in one line */
+    justify-content: space-between; /* Left: brand, Right: hamburger */
+    align-items: center;
+  }
+
+  .navbar-brand {
+    font-size: 1.5em;
+  }
+
+  .navbar-menu {
+    top: 50px;
+    padding: 20px 0;
+  }
+
+  .navbar-menu a {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .hamburger {
+    right: 40px; /* Ensure it's aligned right */
+  }
+}

@@ -1,0 +1,62 @@
+.about {
+  padding: 2rem;
+}
+
+.about-photo img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.about-text {
+  margin-top: 2rem;
+}
+
+.text-module {
+  margin-bottom: 2rem;
+}
+
+.behind-scenes {
+  margin-top: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Arrange sections vertically */
+    height: calc(100vh - 60px); /* Adjust height based on navbar/footer */
+  }
+  
+  .page h1 {
+    font-size: 2em;
+  }
+  
+  .hero {
+    height: 100%;
+    width: 100vw; /* Ensure it covers the entire width */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+  
+  .second-section {
+    background-color: white;
+    padding: 2rem; /* Add padding for spacing */
+    text-align: center;
+  }
