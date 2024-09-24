@@ -6,7 +6,7 @@ function About() {
     <div className="container"> 
         <div className='box ProfilePic'>
         <img src={`${process.env.PUBLIC_URL}/profilePic.png`} alt="Description of Image" className='profilePic1' />
-        <p>Yep, Thats me </p>
+        <div className='imageText'>Yep, Thats me </div>
         </div>
 
         <div className='info1'>

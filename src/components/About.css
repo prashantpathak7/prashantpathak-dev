@@ -18,17 +18,29 @@
   /* justify-content: center; */
 } 
 
+@media (max-width: 480px) {
+  .container {
+    grid-template-columns: 1fr 4fr 4fr 4fr 4fr 1fr;
+    row-gap: 10px;
+    column-gap: 5px;
+  }
+}
 .ProfilePic{
   /* background-color:aquamarine; */
-  grid-column-start: 3;
-  grid-column-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 6;
   grid-row-start: 2;
   grid-row-end: 3
   ;
 }
 
 .profilePic1{
-  width: 80%;
+  width: 50%;
+}
+@media (max-width: 480px) {
+  .profilePic1 {
+    width: 100%;
+  }
 }
 
 .info1 {
@@ -41,13 +53,42 @@
   justify-self: start;
 }
 
+@media (max-width: 480px) {
+  .info1 {
+    /* background-color: red; */
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  /* width: 500PX; */
+  justify-self: start;
+  }
+}
+
 .infoHeader{
   text-align: left;
+}
+
+@media (max-width: 480px) {
+  .infoHeader {
+    font-size: 18px;
+  }
 }
 
 .infoText{
   text-align: left;
   line-height: 1.5;
+}
+
+@media (max-width: 480px) {
+  .infoText {
+    font-size: 14px;
+    line-height: auto;
+  }
+}
+
+.imageText{
+font-size: 18px;
 }
 
 .info2 {
@@ -58,6 +99,17 @@
   grid-row-end: 6;
   /* width: 500PX; */
 }
+
+@media (max-width: 480px) {
+  .info2 {
+   /* background-color: red; */
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  /* width: 500PX; */
+  }
+}
 .info3 {
   /* background-color: red; */
   grid-column-start: 2;
@@ -66,7 +118,17 @@
   grid-row-end: 8;
   /* width: 500PX; */
 }
-
+@media (max-width: 480px) {
+  .info3 {
+    /* background-color: red; */
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  /* width: 500PX; */
+  justify-self: start;
+  }
+}
 .Title {
   /* background-color: red; */
   grid-column-start: 2;
@@ -77,7 +139,11 @@
   font-size: 60px;
   /* width: 500PX; */
 }
-
+@media (max-width: 480px) {
+  .Title {
+    font-size: 26px;
+  }
+}
 .imagesGrid1{
   grid-column-start: 2;
   grid-column-end: 4;
@@ -91,13 +157,36 @@
   grid-column-end: 6;
   grid-row-start: 11;
   grid-row-end: 12;
- 
+  
 }
+@media (max-width: 480px) {
+  .imagesGrid1 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 11;
+    grid-row-end: 12;  
+  }
+  .imagesGrid2 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 12;
+    grid-row-end: 13;  
+  }
+  
+}
+
+
 
 .gridImages{
   width: 100%;
   height: auto;
   margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .gridImages {
+    margin-bottom: 1px;
+  }
 }
 /* .box{
   border: 2px solid green;
