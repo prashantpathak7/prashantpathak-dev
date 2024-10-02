@@ -28,14 +28,14 @@
   font-size: 32px;
   font-weight: 400;
   padding-top: 25px;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .address{
   font-size: 18px;
   font-weight: 400;
   padding-top: 15px;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .section2-Right{
@@ -53,18 +53,18 @@
   font-size: 18px;
   font-weight: 400;
   padding-top: 25px;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .DevelopedBy{
   font-size: 16px;
   font-weight: 400;
   padding-top: 150px;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .link {
-  color: rgba(255, 255, 255, 0.3);/* Set the initial text color to black */
+  color: rgba(255, 255, 255, 0.4);/* Set the initial text color to black */
   text-decoration: none; /* Remove the underline */
 
   &:hover {

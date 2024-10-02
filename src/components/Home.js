@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 import './Home.css';
 
 function Home() {
@@ -18,10 +19,110 @@ function Home() {
                            As a product designer with a background in <span class="white-word"> IT Engineering</span>, I have created <span class="white-word"> 31+ product designs </span> 
                            for clients from <span class="white-word"> 8+ countries</span>.
                           </h1>
-                    </div>           
+                     </div>    
         </div>
+            
+        <div className='TestA'> 
+        FEATURED PROJECTS
+        </div>
+        <div className='caseStudyA'>
+              <div className='CaseSTudyAImage'>
+              </div>
+          <div className='CaseStudyTextArea'>
+              <div className='CaseStudyTitle'>
+                CaseStudy-1 
+              </div>
+              <div className='CaseStudyDescription'>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </div>
+              <div className='button'>Know More</div>
+          </div>
+          
+        </div>
+
+
+        <div className='caseStudyA'>
+              
+          <div className='CaseStudyTextArea'>
+              <div className='CaseStudyTitle'>
+              CaseStudy-2 
+              </div>
+              <div className='CaseStudyDescription'>
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </div>
+              <div className='button'>Know More</div>
+          </div>
+          <div className='CaseSTudyAImage'>
+              </div>
+          
+        </div>
+
+        <div className='caseStudyA'>
+              <div className='CaseSTudyAImage'>
+              </div>
+          <div className='CaseStudyTextArea'>
+              <div className='CaseStudyTitle'>
+              CaseStudy-3  
+              </div>
+              <div className='CaseStudyDescription'>
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </div>
+              <div className='button'>Know More</div>
+          </div>
+          
+        </div>
+
+
+        <div className='caseStudyA'>
+              
+          <div className='CaseStudyTextArea'>
+              <div className='CaseStudyTitle'>
+              CaseStudy-4 
+              </div>
+              <div className='CaseStudyDescription'>
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </div>
+              <div className='button'>Know More</div>
+          </div>
+          <div className='CaseSTudyAImage'>
+              </div>
+          
+        </div>
+
+
+        <div className='caseStudyA'>
+              <div className='CaseSTudyAImage'>
+              </div>
+          <div className='CaseStudyTextArea'>
+              <div className='CaseStudyTitle'>
+              CaseStudy-5 
+              </div>
+              <div className='CaseStudyDescription'>
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </div>
+              <div className='button'>Know More</div>
+          </div>
+          
+        </div>
+
+
+        <div className='caseStudyA'>
+              
+          <div className='CaseStudyTextArea'>
+              <div className='CaseStudyTitle'>
+              CaseStudy-6 
+              </div>
+              <div className='CaseStudyDescription'>
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </div>
+              <div className='button'>Know More</div>
+          </div>
+          <div className='CaseSTudyAImage'>
+              </div>
+          
+        </div>
+  
     </div>
-    
   );
 }
 

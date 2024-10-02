@@ -1,18 +1,122 @@
+.TestA{
+  /* background-color: red; */
+  justify-content: left;               /* Horizontal centering */
+  align-items: center;                   /* Vertical centering */
+  text-align: left;
+  padding-left: 15vw; 
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  color: rgb(90, 90, 90);
+}
+
+.caseStudyA{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5%;
+  margin-bottom: 100px;
+}
+.CaseStudyCard{
+  display: grid;
+  grid-template-columns: 10% 20% 20% 20% 20% 10% ;
+  grid-template-rows: 50px 50px 50px 110px 110px 110px;
+}
+
+.CaseSTudyAImage{
+  width: 35%;
+  height: 300px;
+  border-radius: 20px; /* Adjust the radius as needed */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adjust the shadow as needed */
+}
+
+.CaseStudyTitle{
+  font-size: 32px;
+  font-weight: 600;
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+  /* color: red; */
+}
+
+.CaseStudyTextArea{
+  width: 28%;
+  height: 300px;
+  /* background-color: rgb(50, 97, 168);  */
+  display: flex;
+  justify-content: left;               /* Horizontal centering */
+  align-items: Top;                   /* Vertical centering */
+  text-align: left;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.CaseStudyDescription{
+  font-size: 16px;
+  font-weight: 300;
+  /* padding-top: 5px; */
+  color: rgb(11, 11, 11);
+  line-height: 1.5;
+}
+
+
+.featuredProjectText{
+  grid-area: 2/2/2/3;
+  /* width: 100%; */
+  display: flex;                         /* Enable flexbox for centering */
+  justify-content: left;               /* Horizontal centering */
+  align-items: center;                   /* Vertical centering */
+  text-align: center; 
+  font-size: 22px;
+}
+
+.caseStudyCardTypeA{
+  grid-area: 4/3/5/5;
+  background-color: Red;
+}
+.button {
+  /* margin-top: 20px; */
+  border: 1px solid black;
+  margin-top: 5px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  width: fit-content; /* Set the width to the minimum required to fit the content */
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.button:active {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.item3{
+  grid-area: 1/1/1/7;
+  background-color: red;
+  width: 100%;
+}
 /* main parent div  */
 .parentDiv {
-
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   flex-direction: column;   /* Arrange sections vertically */
-  height: 100vh ; 
 }
 
 /* Section 1 Intro  */
 .section1-intro{
   background-color: rgb(0, 0, 0);
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,12 +124,14 @@
   /* padding: 20px; */
 }
 
+
 /* image Memoji showinh Hi  */
 .image-Hi{
   width: 260px;
   height: auto;
 }
  
+
 /* intro text style  */
 
 .text-intro{
