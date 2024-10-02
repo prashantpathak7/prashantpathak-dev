@@ -1,20 +1,74 @@
-.footer {
-  /* position: fixed; */
+.footer-container{
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.1);
+  height: 60vh;
+  background: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
-  gap: 15px;
 }
 
-.footer a {
-  color: black;
-  text-decoration: none;
+.section1-left{
+  width: 50%;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: white;
+  padding-left: 200px;
+  padding-top: 100px;
 }
 
-.footer a:hover {
-  text-decoration: underline;
+.get-in-touch{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.emailid{
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 25px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.address{
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 15px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.section2-Right{
+  width: 50%;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: white;
+  padding-left: 250px;
+  padding-top: 100px;
+}
+
+.linkedIn{
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 25px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.DevelopedBy{
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 150px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.3);/* Set the initial text color to black */
+  text-decoration: none; /* Remove the underline */
+
+  &:hover {
+    color: white; /* Change the text color to white on hover */
+    background-color: black; /* Add a black background color on hover for better contrast */
+  }
 }
