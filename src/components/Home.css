@@ -51,7 +51,7 @@
   align-items: Top;                   /* Vertical centering */
   text-align: left;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .CaseStudyDescription{
@@ -77,6 +77,7 @@
   grid-area: 4/3/5/5;
   background-color: Red;
 }
+
 .button {
   /* margin-top: 20px; */
   border: 1px solid black;
@@ -104,6 +105,7 @@
   background-color: red;
   width: 100%;
 }
+
 /* main parent div  */
 .parentDiv {
   display: flex;
@@ -131,6 +133,11 @@
   height: auto;
 }
  
+.CM-LOGO{
+  margin-top: 75px;
+  width: 360px;
+  height: auto;
+}
 
 /* intro text style  */
 
@@ -204,4 +211,45 @@ width: 50%;
 .section1-intro {
   padding: 5px;
 }
+}
+
+.fiverr-review-container{
+  margin-top: 100px;
+  height: inherit;
+  display: grid;
+  row-gap: 20px;
+  column-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: rgb(245, 245, 245);
+} 
+
+.reviewImage{
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.reviewImageGrid1{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  
+}
+
+.reviewImageGrid2{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  
+}
+
+.reviewImageGrid3{
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  
 }

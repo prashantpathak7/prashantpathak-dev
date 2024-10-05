@@ -4,16 +4,19 @@ import './About.css';
 function About() {
   return (
     <div className="container"> 
-        <div className='box ProfilePic'>
+        {/* <div className='box ProfilePic'>
         <img src={`${process.env.PUBLIC_URL}/profilePic.png`} alt="Description of Image" className='profilePic1' />
         <div className='imageText'>Yep, Thats me </div>
-        </div>
+        </div> */}
 
         <div className='info1'>
           <h1 className='infoHeader'>
           Who am I?</h1>
           <p className='infoText'>My name is Prashant, and I’m a Product Designer based in Pune with a background in IT engineering. I specialize in crafting intuitive and innovative user experiences, blending technical expertise with creative solutions to solve complex problems.</p>
 
+        </div>
+        <div className='ProfilePic11'>
+        <img src={`${process.env.PUBLIC_URL}/image-2.png`} alt="Description of Image" className='profilePic1' />
         </div>
 
         <div className='info2'>
@@ -22,7 +25,10 @@ function About() {
           <p className='infoText'>As a technology enthusiast, I design seamless and user-friendly digital experiences. My IT engineering background allows me to approach design from both a technical and user-centered perspective. Currently, I'm working at Neilsoft, where I integrate diverse cultural insights to create impactful solutions.</p>
 
         </div>
-
+        <div className='ProfilePic12'>
+        <img src={`${process.env.PUBLIC_URL}/image-5.png`} alt="Description of Image" className='profilePic1' />
+        </div>
+   
         <div className='info3'>
           <h1 className='infoHeader'>
           
@@ -30,11 +36,15 @@ function About() {
           <p className='infoText'>I'm passionate about creating user-centered designs that improve how people interact with technology. I love exploring new design trends and technologies to push the limits of what’s possible, ensuring every design decision is focused on enhancing the user experience and making a meaningful impact.</p>
 
         </div>
-        <div className='Title' >
-        Behind the scenes</div>
+        <div className='ProfilePic13'>
+        <img src={`${process.env.PUBLIC_URL}/image-9.png`} alt="Description of Image" className='profilePic1' />
+        </div>
+   
+        <h1 className='Title'>What do I do besides product designing?</h1>
 
         <div className='imagesGrid1'>
         <img src={`${process.env.PUBLIC_URL}/websitepic08.jpg`} alt="Description of Image" className='gridImages' />
+        <img src={`${process.env.PUBLIC_URL}/websitepic22.jpg`} alt="Description of Image" className='gridImages' />
         <img src={`${process.env.PUBLIC_URL}/websitepic06.jpg`} alt="Description of Image" className='gridImages' />
         <img src={`${process.env.PUBLIC_URL}/websitepic04.jpg`} alt="Description of Image" className='gridImages' />
         <img src={`${process.env.PUBLIC_URL}/websitepic05.jpg`} alt="Description of Image" className='gridImages' />
@@ -48,6 +58,7 @@ function About() {
         <img src={`${process.env.PUBLIC_URL}/websitepic03.jpg`} alt="Description of Image" className='gridImages' />
         <img src={`${process.env.PUBLIC_URL}/websitepic07.jpg`} alt="Description of Image" className='gridImages' />
         {/* <img src={`${process.env.PUBLIC_URL}/websitepic02.jpg`} alt="Description of Image" className='gridImages' /> */}
+        <img src={`${process.env.PUBLIC_URL}/websitepic21.jpg`} alt="Description of Image" className='gridImages' />
         <img src={`${process.env.PUBLIC_URL}/websitepic12.jpg`} alt="Description of Image" className='gridImages' />
         </div>
 

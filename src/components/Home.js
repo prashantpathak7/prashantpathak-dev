@@ -1,8 +1,15 @@
 import React from 'react';
-import Footer from './Footer';
+import { useNavigate } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
+  
+  const navigate = useNavigate();
+
+  const handleKnowMoreClick = () => {
+    navigate('/CS1');
+  };
+
   return (
     // main div of the website 
     <div className='parentDiv'> 
@@ -23,19 +30,21 @@ function Home() {
         </div>
             
         <div className='TestA'> 
-        FEATURED PROJECTS
+        FEATURED WORK
         </div>
         <div className='caseStudyA'>
               <div className='CaseSTudyAImage'>
+              <img src={`${process.env.PUBLIC_URL}/ConstructMonitorLogo.png`} alt="Description of Image" className='CM-LOGO' />
               </div>
           <div className='CaseStudyTextArea'>
               <div className='CaseStudyTitle'>
-                CaseStudy-1 
+                ConstructMonitor 
               </div>
               <div className='CaseStudyDescription'>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              Streamline Success with Cloud-Based Construction Management Software, 
+              Enhance Construction Quality and Progress Tracking
               </div>
-              <div className='button'>Know More</div>
+              <div className='button' onClick={handleKnowMoreClick}>Know More</div>
           </div>
           
         </div>
@@ -119,9 +128,8 @@ function Home() {
           </div>
           <div className='CaseSTudyAImage'>
               </div>
-          
         </div>
-  
+    
     </div>
   );
 }

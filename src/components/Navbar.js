@@ -20,11 +20,13 @@ function Navbar() {
       <div className="navbar-brand">Prashant Pathak</div>
       <div className={`navbar-menu ${isOpen ? 'open' : ''}`}>
         <Link to="/" className={isActive('/')} onClick={() => setIsOpen(false)}>Home</Link>
+        <Link to="/words" className={isActive('/words')} onClick={() => setIsOpen(false)}>Words</Link>
         <Link to="/about" className={isActive('/about')} onClick={() => setIsOpen(false)}>About Me</Link>
         {/* Remove isActive for the PDF link */}
         <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Resume</a>
       </div>
       <div className="hamburger" onClick={toggleMenu}>
+        <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>

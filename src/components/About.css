@@ -25,32 +25,69 @@
     column-gap: 5px;
   }
 }
-.ProfilePic{
+.ProfilePic11{
   /* background-color:aquamarine; */
   grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  /* background-color: red; */
+  margin-top: 10px;
+}
+
+.info1 {
+  /* background-color: red; */
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  /* width: 500PX; */
+  justify-self: start;
+}
+
+.ProfilePic12{
+  /* background-color:aquamarine; */
+  grid-column-start: 5;
   grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 3
-  ;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  /* background-color: red; */
+  margin-top: 10px;
+}
+
+.info2 {
+  /* background-color: red; */
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  /* width: 500PX; */
+}
+.ProfilePic13{
+  /* background-color:aquamarine; */
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  /* background-color: red; */
+  margin-top: 50px;
+}
+.info3 {
+  /* background-color: red; */
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  /* width: 500PX; */
 }
 
 .profilePic1{
-  width: 50%;
+  width: 100%;
 }
 @media (max-width: 480px) {
   .profilePic1 {
     width: 100%;
   }
-}
-
-.info1 {
-  /* background-color: red; */
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  /* width: 500PX; */
-  justify-self: start;
 }
 
 @media (max-width: 480px) {
@@ -91,14 +128,6 @@
 font-size: 18px;
 }
 
-.info2 {
-  /* background-color: red; */
-  grid-column-start: 4;
-  grid-column-end: 6;
-  grid-row-start: 5;
-  grid-row-end: 6;
-  /* width: 500PX; */
-}
 
 @media (max-width: 480px) {
   .info2 {
@@ -110,14 +139,7 @@ font-size: 18px;
   /* width: 500PX; */
   }
 }
-.info3 {
-  /* background-color: red; */
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 7;
-  grid-row-end: 8;
-  /* width: 500PX; */
-}
+
 @media (max-width: 480px) {
   .info3 {
     /* background-color: red; */
@@ -136,7 +158,8 @@ font-size: 18px;
   grid-row-start: 10;
   grid-row-end: 11;
   text-align: left;
-  font-size: 60px;
+  /* font-size: 30px;
+  font-weight:800; */
   /* width: 500PX; */
 }
 @media (max-width: 480px) {
@@ -149,6 +172,7 @@ font-size: 18px;
   grid-column-end: 4;
   grid-row-start: 11;
   grid-row-end: 12;
+  margin-bottom: 80px;
   
 }
 
@@ -165,6 +189,8 @@ font-size: 18px;
     grid-column-end: 6;
     grid-row-start: 11;
     grid-row-end: 12;  
+
+  margin-bottom: 10px;
   }
   .imagesGrid2 {
     grid-column-start: 2;

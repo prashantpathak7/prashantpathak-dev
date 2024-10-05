@@ -1,0 +1,77 @@
+
+.fiverr-review-container{
+  margin-top: 100px;
+  height: inherit;
+  display: grid;
+  row-gap: 20px;
+  column-gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  background-color: rgb(255, 255, 255);
+} 
+
+.ImageForTitle{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Image-Memoji{
+  width: 100%;
+}
+
+.fiver-review-title{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
+.link2{
+  text-decoration: underline;
+}
+
+.Words-title{
+  margin-top: 60px;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+
+.Words-desc{
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.reviewImage{
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+  border-radius: 10px; /* Adjust the radius as needed */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.reviewImageGrid1{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.reviewImageGrid2{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
