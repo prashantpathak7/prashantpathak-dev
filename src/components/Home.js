@@ -30,11 +30,11 @@ function Home() {
         </div>
             
         <div className='TestA'> 
-        FEATURED WORK
+        SOME OF MY WORK
         </div>
         <div className='caseStudyA'>
               <div className='CaseSTudyAImage'>
-              <img src={`${process.env.PUBLIC_URL}/ConstructMonitorLogo.png`} alt="Description of Image" className='CM-LOGO' />
+              <img src={`${process.env.PUBLIC_URL}/ConstructMonitorLogo.JPG`} alt="Description of Image" className='CM-LOGO' />
               </div>
           <div className='CaseStudyTextArea'>
               <div className='CaseStudyTitle'>
@@ -44,7 +44,7 @@ function Home() {
               Streamline Success with Cloud-Based Construction Management Software, 
               Enhance Construction Quality and Progress Tracking
               </div>
-              <div className='button' onClick={handleKnowMoreClick}>Know More</div>
+              <div className='button' onClick={handleKnowMoreClick}>Multiple NDA - View Limited Info</div>
           </div>
           
         </div>
