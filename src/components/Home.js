@@ -54,16 +54,15 @@ function Home() {
               
           <div className='CaseStudyTextArea'>
               <div className='CaseStudyTitle'>
-              CaseStudy-2 
+              Ranger by OrangeCells
               </div>
               <div className='CaseStudyDescription'>
-             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              Digital twin based proprietary platform, Build the big picture of utilization & fuel consumption patterns across your diverse fleet with unmatched reports, analytics and advanced tools for in-depth analysis. 
               </div>
-              <div className='button'>Know More</div>
+              <div className='button'>Multiple NDA - View Limited Info</div>
           </div>
           <div className='CaseSTudyAImage'>
-              </div>
-          
+          </div>          
         </div>
 
         <div className='caseStudyA'>
