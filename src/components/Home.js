@@ -10,6 +10,11 @@ function Home() {
     navigate('/CS1');
   };
 
+
+  const handleKnowMoreClick2 = () => {
+    navigate('/CS2');
+  };
+
   return (
     // main div of the website 
     <div className='parentDiv'> 
@@ -51,7 +56,6 @@ function Home() {
 
 
         <div className='caseStudyA'>
-              
           <div className='CaseStudyTextArea'>
               <div className='CaseStudyTitle'>
               Ranger by OrangeCells
@@ -59,9 +63,10 @@ function Home() {
               <div className='CaseStudyDescription'>
               Digital twin based proprietary platform, Build the big picture of utilization & fuel consumption patterns across your diverse fleet with unmatched reports, analytics and advanced tools for in-depth analysis. 
               </div>
-              <div className='button'>Multiple NDA - View Limited Info</div>
+              <div className='button' onClick={handleKnowMoreClick2}>Multiple NDA - View Limited Info</div>
           </div>
           <div className='CaseSTudyAImage'>
+          <img src={`${process.env.PUBLIC_URL}/CS2-Logo.png`} alt="Description of Image" className='CM-LOGO' />
           </div>          
         </div>
 

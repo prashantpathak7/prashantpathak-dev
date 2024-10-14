@@ -35,7 +35,7 @@ function CS1() {
 
         <div className='title-about-NDA'>Behind the scenes, a complex project unfolded. While the details remain confidential, the solution website and other link offers a peek into the final result.</div>
 
-        <div className='link1'> <a href="www.constructmonitor.online" target="_blank">www.constructmonitor.online</a>
+        <div className='link1'> <a href="https://constructmonitor.online" target="_blank">www.constructmonitor.online</a>
         </div>
 
         <div className='link2'> <a href="https://neilsoft.com/news/construct-monitor" target="_blank">https://neilsoft.com/news/construct-monitor</a>
