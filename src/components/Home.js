@@ -8,12 +8,20 @@ function Home() {
 
   const handleKnowMoreClick = () => {
     navigate('/CS1');
+    // window.open('/CS1', '_blank');
   };
 
 
   const handleKnowMoreClick2 = () => {
     navigate('/CS2');
   };
+
+
+  const handleKnowMoreClick3 = () => {
+    navigate('/CS3');
+  };
+
+
 
   return (
     // main div of the website 
@@ -46,7 +54,7 @@ function Home() {
                 ConstructMonitor 
               </div>
               <div className='CaseStudyDescription'>
-              Streamline Success with Cloud-Based Construction Management Software, 
+              Streamline Success with SaaS Based Construction Management Software, 
               Enhance Construction Quality and Progress Tracking
               </div>
               <div className='button' onClick={handleKnowMoreClick}>Multiple NDA - View Limited Info</div>
@@ -75,12 +83,12 @@ function Home() {
               </div>
           <div className='CaseStudyTextArea'>
               <div className='CaseStudyTitle'>
-              CaseStudy-3  
+              MeduLearn  
               </div>
               <div className='CaseStudyDescription'>
-             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              It helps medical students and trainee doctors enhance their diagnostic skills using real-world medical visual data, like X-rays, sonograms and MRIs. Offering hands-on learning with the latest case studies.
               </div>
-              <div className='button'>Know More</div>
+              <div className='button' onClick={handleKnowMoreClick3}>Know More</div>
           </div>
           
         </div>
