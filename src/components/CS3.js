@@ -52,6 +52,30 @@ function CS3() {
                  After treatment, data like retinal imaging, X-rays, and ultrasound etc scans often go unused, but MeduLearn repurposes this data to, providing a practical, hands-on learning experience for trainee doctors and enhancing their diagnostic skills.
                 </div>
         </div>
+        {/* ------------- CS3 audience ---------*/}
+        <div className='CS3-Audience'>        </div>
+        <div className='CS3-Audience-Tag CS3-Overview-Tag'>Target Users Demographics</div>
+        <div className='CS3-Audience-left-section'>
+            <div className='role-title'>Profession</div>
+            <div className='role-description'>Trainee Doctor & Medical Student</div>
+
+
+            <div className='role-title'>Goal</div>
+            <div className='role-description'>Improving diagnostic accuracy and gaining confidence in Visual interpretation,</div>
+</div>
+
+        <div className='CS3-Audience-right-section'>
+            <div className='role-title'>Average Age Group</div>
+            <div className='role-description'>18 Years - 38 Years</div>
+
+
+            <div className='role-title'>Location</div>
+            <div className='role-description'> Sweden</div>
+        
+
+             
+        </div>
+        
         
   </div>
   );

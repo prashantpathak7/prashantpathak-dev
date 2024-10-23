@@ -79,11 +79,12 @@ function Home() {
         </div>
 
         <div className='caseStudyA'>
-              <div className='CaseSTudyAImage'>
+              <div className='CaseSTudyAImage-Pocus'>
+              <img src={`${process.env.PUBLIC_URL}/Pocus.png`} alt="Description of Image" className='CM-LOGO' />
               </div>
           <div className='CaseStudyTextArea'>
               <div className='CaseStudyTitle'>
-              MeduLearn  
+              POCUS  
               </div>
               <div className='CaseStudyDescription'>
               It helps medical students and trainee doctors enhance their diagnostic skills using real-world medical visual data, like X-rays, sonograms and MRIs. Offering hands-on learning with the latest case studies.

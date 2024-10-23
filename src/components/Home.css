@@ -34,6 +34,15 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adjust the shadow as needed */
 }
 
+.CaseSTudyAImage-Pocus{
+  width: 35%;
+  background-color: #4087C5;
+  height: 300px;
+  border-radius: 20px; /* Adjust the radius as needed */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adjust the shadow as needed */
+}
+
+
 .CaseStudyTitle{
   font-size: 32px;
   font-weight: 600;
