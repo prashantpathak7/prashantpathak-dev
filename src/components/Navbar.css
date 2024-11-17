@@ -15,6 +15,19 @@
   transition: padding 0.3s ease;
 }
 
+/* Make the navbar brand link look like plain text */
+.navbar-brand a {
+  color: white; /* Match the brand color */
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Keep it clickable */
+  font-size: inherit; /* Inherit the font size of the brand */
+}
+
+.navbar-brand a:hover {
+  text-decoration: none; /* Prevent underline on hover */
+  color: white; /* No color change on hover */
+}
+
 .navbar-brand {
   font-size: 1.5em;
 }

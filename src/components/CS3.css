@@ -1,3 +1,17 @@
+.CaseStudyTitle{
+    font-size: 52px;
+}
+
+.CaseStudyDescription{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 0%, 50%);
+    text-align: left;
+    line-height: 170%;
+}
+
 .CS3-main-container{
     margin-top: 68px;
     display: grid;
