@@ -2,7 +2,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 60vh;
+  height: auto;
   background: rgb(0, 0, 0);
   margin-top: 10px;
   display: grid;
@@ -42,6 +42,11 @@
 }
 
 .get-in-touch{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.lets-connect{
   font-size: 12px;
   font-weight: 400;
 }
@@ -88,6 +93,9 @@
   justify-content: flex-start;
   flex-direction: column;
   color: white;
+
+  padding-top: 30px;
+  padding-bottom: 90px;
 }
 
 .DevelopedBy{
@@ -98,44 +106,73 @@
 
 /* Media Queries for Responsive Design */
 
-/* For smaller devices like smartphones */
+/* For smaller devices like iPad smartphones Landscape */
 @media (max-width: 768px) {
-  .footer-container {
-    padding-left: 20px;
-    padding-right: 20px;
-    grid-template-columns: 1fr 1fr;
-    height: auto;
+  .footer-container{
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
   }
-
-  .section-left, .section-right, .section-developedby {
+  
+  .section-left{
+    padding-top: 90px;
     grid-column-start: 1;
-    grid-column-end: 3;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .section-left {
-    padding-top: 30px;
-  }
-
-  .section-right {
-    padding-top: 30px;
-  }
-
-  .emailid {
-    font-size: 24px;
-  }
-
-  .address,
-  .SocialAccountLinks {
-    font-size: 16px;
-  }
-
-  .DevelopedBy {
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* background-color: red; */
+    }
+  
+  .section-right{
+    padding-top: 90px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* background-color: greenyellow; */
+     }
+  
+  .get-in-touch{
     font-size: 14px;
-  }
-}
+     }
+  
+     .lets-connect{
+      font-size: 14px;
+       }
 
+  .emailid{
+    font-size: 24px;
+    padding-top: 30px;
+   }
+  
+  .address{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+   }
+  
+  .SocialAccountLinks{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 30px;
+  }
+  
+  .section-developedby{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /* background-color: red; */
+
+    padding-top: 20px;
+    padding-bottom: 50px;
+      
+    }
+  
+  .DevelopedBy{
+    font-size: 16px;}
+}  
 /* For very small devices like phones in portrait mode */
 @media (max-width: 480px) {
   .footer-container{
@@ -168,6 +205,12 @@
     font-weight: 400;
   }
   
+  .lets-connect{
+    padding-top: 25px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
   .emailid{
     font-size: 20px;
     font-weight: 400;
@@ -194,12 +237,13 @@
     grid-row-start: 3;
     grid-row-end: 4;
     /* background-color: red; */
-    }
+    
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
   
   .DevelopedBy{
     font-size: 14px;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.4);
     padding-bottom: 30px;
   }
   

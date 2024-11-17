@@ -19,7 +19,7 @@ function Footer() {
               
         </div>
         <div className='section-right'>
-            <div className='get-in-touch'>
+            <div className='lets-connect'>
                 LET'S CONNECT
             </div>
 
