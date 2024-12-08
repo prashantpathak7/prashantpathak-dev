@@ -1,27 +1,86 @@
-/* main parent div  */
+/* ===========================
+   Main Parent Div
+=========================== */
 .parentDiv {
   display: flex;
-  flex-direction: column;   /* Arrange sections vertically */
+  flex-direction: column; /* Arrange sections vertically */
 }
 
+/* ===========================
+   Section 1: Intro
+=========================== */
+.section1-intro {
+  background-color: #000; /* Black background */
+  width: 100%;
+  height: 82vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 70px;
+}
 
-/* OLD */
+.image-Hi {
+  width: 260px;
+  height: auto;
+}
 
-.TestA{
-  /* background-color: red; */
-  justify-content: left;               /* Horizontal centering */
-  align-items: center;                   /* Vertical centering */
+.text-intro {
+  width: 50%;
+}
+
+.text-title-namaste {
+  font-size: 16px;
+  color: rgb(143, 143, 143); /* Grey */
+  font-weight: 600;
   text-align: left;
-  padding-left: 15vw; 
-  padding-top: 50px;
-  padding-bottom: 20px;
-  font-size: 14px;
-  font-weight: 300;
-  margin-bottom: 30px;
-  color: rgb(90, 90, 90);
 }
 
-.caseStudyA{
+.text-body-description {
+  color: rgb(143, 143, 143); /* Grey */
+  font-size: 23px;
+  font-weight: 400;
+  font-family: sans-serif;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.white-word {
+  color: #fff; /* White */
+}
+
+/* ===========================
+   Section 2: Case Studies
+=========================== */
+.section2-intro {
+  background-color: #000; /* Black background */
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #848484; /* Light grey text */
+  padding-top: -10px;
+}
+
+.scrollDownText {
+  font-size: 16px;
+  color: #ffffff; /* White */
+  display: flex;
+  align-items: center;
+}
+
+.scroll-icon {
+  margin-right: 8px; /* Space between icon and text */
+  vertical-align: middle;
+  font-size: 1.2rem;
+  color: #848484; /* Light grey */
+}
+
+/* ===========================
+   Case Studies
+=========================== */
+.caseStudyA {
   width: 100%;
   display: flex;
   align-items: center;
@@ -30,83 +89,61 @@
   gap: 5%;
   margin-bottom: 100px;
 }
-.CaseStudyCard{
+
+.CaseStudyCard {
   display: grid;
-  grid-template-columns: 10% 20% 20% 20% 20% 10% ;
+  grid-template-columns: 10% 20% 20% 20% 20% 10%;
   grid-template-rows: 50px 50px 50px 110px 110px 110px;
 }
 
-.CaseSTudyAImage{
+.CaseSTudyAImage,
+.CaseSTudyAImage-Pocus {
   width: 35%;
   height: 300px;
-  border-radius: 20px; /* Adjust the radius as needed */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adjust the shadow as needed */
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
 }
 
-.CaseSTudyAImage-Pocus{
-  width: 35%;
-  background-color: #4087C5;
-  height: 300px;
-  border-radius: 20px; /* Adjust the radius as needed */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Adjust the shadow as needed */
+.CaseSTudyAImage-Pocus {
+  background-color: #4087c5; /* Blue */
 }
 
-
-.CaseStudyTitle{
+.CaseStudyTitle {
   font-size: 32px;
   font-weight: 600;
-  /* padding-top: 20px; */
-  /* padding-bottom: 20px; */
-  /* color: red; */
 }
 
-.CaseStudyTextArea{
+.CaseStudyTextArea {
   width: 28%;
   height: 300px;
-  /* background-color: rgb(50, 97, 168);  */
   display: flex;
-  justify-content: left;               /* Horizontal centering */
-  align-items: Top;                   /* Vertical centering */
-  text-align: left;
   flex-direction: column;
   gap: 10px;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.CaseStudyDescription{
+.CaseStudyDescription {
   font-size: 16px;
   font-weight: 300;
-  /* padding-top: 5px; */
-  color: rgb(11, 11, 11);
+  color: rgb(11, 11, 11); /* Black */
   line-height: 1.5;
 }
 
-
-.featuredProjectText{
-  grid-area: 2/2/2/3;
-  /* width: 100%; */
-  display: flex;                         /* Enable flexbox for centering */
-  justify-content: left;               /* Horizontal centering */
-  align-items: center;                   /* Vertical centering */
-  text-align: center; 
-  font-size: 22px;
-}
-
-.caseStudyCardTypeA{
-  grid-area: 4/3/5/5;
-  background-color: Red;
-}
-
+/* ===========================
+   Buttons
+=========================== */
 .button {
-  /* margin-top: 20px; */
   border: 1px solid black;
-  margin-top: 5px;
   border-radius: 20px;
   padding: 10px 20px;
   background-color: transparent;
   color: black;
   cursor: pointer;
-  white-space: nowrap; /* Prevent text from wrapping to the next line */
-  width: fit-content; /* Set the width to the minimum required to fit the content */
+  white-space: nowrap;
+  width: fit-content;
+  margin-top: 5px;
 }
 
 .button:hover {
@@ -118,205 +155,53 @@
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.item3{
-  grid-area: 1/1/1/7;
-  background-color: red;
-  width: 100%;
+/* ===========================
+   Media Queries (Responsive)
+=========================== */
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .section1-intro {
+    flex-direction: column;
+    height: 90vh;
+  }
+
+  .text-intro {
+    width: 90%;
+    text-align: center;
+  }
+
+  .text-body-description {
+    font-size: 18px;
+  }
+
+  .image-Hi {
+    width: 220px;
+  }
 }
 
-/* Section 1 Intro  */
-.section1-intro{
-  background-color: rgb(0, 0, 0);
-  width: 100%;
-  height: 92vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  /* padding: 20px; */
-}
-
-.section2-intro{
-  background-color: rgb(0, 0, 0);
-  width: 100%;
-  height: 8vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  color: rgba(255, 255, 255, 0.504);
- 
-  /* padding: 20px; */
-}
-
-
-
-/* image Memoji showinh Hi  */
-.image-Hi{
-  width: 260px;
-  height: auto;
-}
- 
-.CM-LOGO{
-  width: 90%;
-  height: 100%;
-}
-
-/* intro text style  */
-
-.text-intro{
-width: 50%;
-
-}
-
-.text-title-namaste{
-  font-size: 16px;
-  color: rgb(143, 143, 143);
-  font-weight: 600;
-  text-align: left;
-}
-
-.text-body-description{
-  color: rgb(143, 143, 143);
-  justify-content: center;
-  align-items: center;
-  font-size: 23px;
-  font-weight: 400;
-  font-family:sans-serif;
-  line-height: 1.6;
-  text-align: left;
-
-}
-
-.white-word {
-  color: rgb(255, 255, 255);
-}
-
-.scrollDownText {
-  color: #ffffff;
-  justify-content: flex-end;
-  align-items: end;
-  width: 100%;
-  background-color: red;
-  font-size: 16px;  
-}
-
-/* Media queries for responsiveness */
-
-/* For tablets (max width 768px) */
-
-@media (max-width:768px){
-
-.section1-intro{
-  flex-direction: column;
-  height: 90vh;
-  display: flex;
-  /* padding: 10px; */
-}  
-
-.section2-intro{
-  background-color: rgb(0, 0, 0);
-  width: 100%;
-  height: 20vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  color: rgba(255, 255, 255, 0.504);
- 
-  /* padding: 20px; */
-}
-
-.text-intro{
-  width: 80%;
-  text-align: center;
-}
-.text-body-description {
-  font-size: 18px;
-}
-
-.image-Hi {
-  width: 220px;
-}
-}
-
-/* For mobile devices (max width 480px) */
+/* Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
-.text-title-namaste {
-  font-size: 14px;
-}
+  .section1-intro {
+    height: 80vh;
+    padding-top: 15px;
+  }
 
-.text-body-description {
-  font-size: 16px;
-  line-height: 1.4;
-}
+  .section2-intro {
+    height: 8vh;
+  } 
 
-.image-Hi {
-  width: 180px;
-  margin-bottom: 20px;
-}
+  .text-title-namaste {
+    font-size: 14px;
+  }
 
-}
+  .text-body-description {
+    font-size: 16px;
+    line-height: 1.4;
+  }
 
-.fiverr-review-container{
-  margin-top: 100px;
-  height: inherit;
-  display: grid;
-  row-gap: 20px;
-  column-gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  background-color: rgb(245, 245, 245);
-} 
-
-.reviewImage{
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.reviewImageGrid1{
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  
-}
-
-.reviewImageGrid2{
-  grid-column-start: 4;
-  grid-column-end: 6;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  
-}
-
-.reviewImageGrid3{
-  grid-column-start: 6;
-  grid-column-end: 8;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  
-}
-
-/* /* parent css */
-
-.parent01{
-  margin-top: 100px;
-  display: flex;
-  /* width: 100vw; */
-}
-
-.child01{
-  background-color: red;
-  flex:1;
-}
-
-.child02{
-  background-color: rgb(0, 51, 255);
-  flex:5;
-}
-.child03{
-  background-color: rgb(0, 255, 183);
-  flex:1;
+  .image-Hi {
+    width: 180px;
+    margin-bottom: 20px;
+  }
 }

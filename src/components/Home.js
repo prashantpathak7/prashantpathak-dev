@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { FiArrowDown } from 'react-icons/fi'; // Import the icon
 import './Home.css';
 
 function Home() {
@@ -40,7 +41,9 @@ function Home() {
                      </div>  
         </div>
         <div className='section2-intro'>
-          <p>Scroll down to see some of my case studies</p>
+          <p>
+          <FiArrowDown className='scroll-icon' /> {/* Icon before text */}
+          Scroll down to explore more</p>
         </div>
             
         {/* <div className='TestA'> 
