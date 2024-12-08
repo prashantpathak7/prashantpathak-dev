@@ -21,15 +21,13 @@ function Home() {
     navigate('/CS3');
   };
 
-
-
   return (
     // main div of the website 
     <div className='parentDiv'> 
         {/* Section one content Hi image and intro text  */}
-        {/* <div className='section1-intro'> */}
+        <div className='section1-intro'>
                     {/* image showing memoji of hello guesture  */}
-                    {/* <img src={`${process.env.PUBLIC_URL}/memoji4.png`} alt="Description of Image" className='image-Hi' />
+                    <img src={`${process.env.PUBLIC_URL}/memoji4.png`} alt="Description of Image" className='image-Hi' />
                     <div className='text-intro'>
                           <h1 className='text-title-namaste'>HELLO/NAMASTE</h1>
                           <h1 className='text-body-description'>
@@ -39,8 +37,11 @@ function Home() {
                            As a product designer with a background in <span class="white-word"> IT Engineering</span>, I have created <span class="white-word"> 31+ product designs </span> 
                            for clients from <span class="white-word"> 8+ countries</span>.
                           </h1>
-                     </div>     */}
-        {/* </div> */}
+                     </div>  
+        </div>
+        <div className='section2-intro'>
+          <p>Scroll down to see some of my case studies</p>
+        </div>
             
         {/* <div className='TestA'> 
         SOME OF MY WORK
