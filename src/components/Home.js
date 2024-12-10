@@ -42,113 +42,70 @@ function Home() {
         </div>
         <div className='section2-intro'>
           <p>
-          <FiArrowDown className='scroll-icon' /> {/* Icon before text */}
-          Scroll down to explore more</p>
+          <FiArrowDown className='scroll-icon' /> {/* Icon before text */} Scroll down to explore more</p>
         </div>
+
+
+        {/* **************************************** */}
+        {/* Home page section 2, grid start  */}
+        <div className='Container_HomePageCard' >
+            {/* page title*/}
+              <div className='Container_HomePageCard_title'>
+                FEATURED WORK
+              </div>
             
-        {/* <div className='TestA'> 
-        SOME OF MY WORK
+            {/* Card 1 */}
+              <div className='Card1_Section_image'>
+                  <div>
+                      <img src={`${process.env.PUBLIC_URL}/CM.webp`} alt="Description of Image"className='CardImage'/>
+                  </div>
+              </div>
+
+        <div className='Card1_SectonInfo_Right'>
+            <div className='CardTitle'>
+                ConstructMonitor
+            </div>
+            <div className='CardDescription'>
+            Led the complete end-to-end UX design process for a SaaS platform that monitors construction progress, detects deviations, and forecasts potential clashes to optimize project outcomes.   </div>
+            <div className='button'>
+                Know More
+            </div>
         </div>
-        <div className='caseStudyA'>
-              <div className='CaseSTudyAImage'>
-              <img src={`${process.env.PUBLIC_URL}/ConstructMonitorLogo.JPG`} alt="Description of Image" className='CM-LOGO' />
-              </div>
-          <div className='CaseStudyTextArea'>
-              <div className='CaseStudyTitle'>
-                ConstructMonitor 
-              </div>
-              <div className='CaseStudyDescription'>
-              Streamline Success with SaaS Based Construction Management Software, 
-              Enhance Construction Quality and Progress Tracking
-              </div>
-              <div className='button' onClick={handleKnowMoreClick}>Multiple NDA - View Limited Info</div>
+
+      {/* Card 2 */}
+        {/* <div className='Card2_Section_image'>
+          <div>
+            <img src={`${process.env.PUBLIC_URL}/ConstructMonitorLogo.JPG`} alt="Description of Image" className='CardImage' />
+            </div>
           </div>
-          
-        </div>
 
-
-        <div className='caseStudyA'>
-          <div className='CaseStudyTextArea'>
-              <div className='CaseStudyTitle'>
-              Ranger by OrangeCells
-              </div>
-              <div className='CaseStudyDescription'>
-              Digital twin based proprietary platform, Build the big picture of utilization & fuel consumption patterns across your diverse fleet with unmatched reports, analytics and advanced tools for in-depth analysis. 
-              </div>
-              <div className='button' onClick={handleKnowMoreClick2}>Multiple NDA - View Limited Info</div>
+          <div className='Card2_SectonInfo_Right'>
+          <div className='CardTitle'>Card Title</div>
+          <div className='CardDescription'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, esse cillum dolore eu fugiat nulla pariatur. </div>
+          <div className='button'>
+          Know More
           </div>
-          <div className='CaseSTudyAImage'>
-          <img src={`${process.env.PUBLIC_URL}/CS2-Logo.png`} alt="Description of Image" className='CM-LOGO' />
-          </div>          
-        </div>
+      </div> */}
 
-        <div className='caseStudyA'>
-              <div className='CaseSTudyAImage-Pocus'>
-              <img src={`${process.env.PUBLIC_URL}/Pocus.png`} alt="Description of Image" className='CM-LOGO' />
-              </div>
-          <div className='CaseStudyTextArea'>
-              <div className='CaseStudyTitle'>
-              POCUS  
-              </div>
-              <div className='CaseStudyDescription'>
-              It helps medical students and trainee doctors enhance their diagnostic skills using real-world medical visual data, like X-rays, sonograms and MRIs. Offering hands-on learning with the latest case studies.
-              </div>
-              <div className='button' onClick={handleKnowMoreClick3}>Know More</div>
-          </div>
-          
-        </div>
+{/* Card 3 */}
+{/* <div className='Card3_Section_image'>
+<div>
+<img src={`${process.env.PUBLIC_URL}/ConstructMonitorLogo.JPG`} alt="Description of Image" className='CardImage' />
+</div>
+</div>
+<div className='Card3_SectonInfo_Right'>
+    <div className='CardTitle'>Card Title</div>
+    <div className='CardDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </div>
+  <div className='button'>
+  Know More
+  </div>
+</div> */}
+ </div>
 
-
-        <div className='caseStudyA'>
-              
-          <div className='CaseStudyTextArea'>
-              <div className='CaseStudyTitle'>
-              CaseStudy-4 
-              </div>
-              <div className='CaseStudyDescription'>
-             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-              </div>
-              <div className='button'>Know More</div>
-          </div>
-          <div className='CaseSTudyAImage'>
-              </div>
-          
-        </div>
-
-
-        <div className='caseStudyA'>
-              <div className='CaseSTudyAImage'>
-              </div>
-          <div className='CaseStudyTextArea'>
-              <div className='CaseStudyTitle'>
-              CaseStudy-5 
-              </div>
-              <div className='CaseStudyDescription'>
-             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-              </div>
-              <div className='button'>Know More</div>
-          </div>
-          
-        </div>
-
-
-        <div className='caseStudyA'>
-              
-          <div className='CaseStudyTextArea'>
-              <div className='CaseStudyTitle'>
-              CaseStudy-6 
-              </div>
-              <div className='CaseStudyDescription'>
-             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-              </div>
-              <div className='button'>Know More</div>
-          </div>
-          <div className='CaseSTudyAImage'>
-              </div>
-        </div>
-     */}
-    </div>
-  );
+</div> 
+);
+  
+ 
 }
 
 export default Home;

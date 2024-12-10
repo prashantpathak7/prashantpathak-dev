@@ -49,8 +49,29 @@
   color: #fff; /* White */
 }
 
+.button {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  white-space: nowrap;
+  width: fit-content;
+  margin-top: 25px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.button:active {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
 /* ===========================
-   Section 2: Case Studies
+   (Scroll text)
 =========================== */
 .section2-intro {
   background-color: #000; /* Black background */
@@ -77,9 +98,12 @@
   color: #848484; /* Light grey */
 }
 
-/* ===========================
-   Case Studies
-=========================== */
+
+.container_Casestudy{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px; /* Adjust the gap as needed */
+}
 .caseStudyA {
   width: 100%;
   display: flex;
@@ -132,27 +156,124 @@
 }
 
 /* ===========================
-   Buttons
+Section 2
 =========================== */
-.button {
-  border: 1px solid black;
-  border-radius: 20px;
-  padding: 10px 20px;
-  background-color: transparent;
-  color: black;
-  cursor: pointer;
-  white-space: nowrap;
-  width: fit-content;
-  margin-top: 5px;
+/* ===========================
+   Case Studies
+=========================== */
+
+.Container_HomePageCard{
+ margin-top: 20px;
+ display: grid;
+ row-gap: 50px;
+ column-gap: 5px;
+ grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
+ background-color: rgb(255, 255, 255);
+ margin-bottom: 100px;
+
 }
 
-.button:hover {
-  background-color: black;
-  color: white;
+.Container_HomePageCard_title{
+ grid-column-start: 2;
+ grid-column-end: 8;
+ grid-row-start: 1;
+ grid-row-end: 2;
+ display: flex;
+ align-items: left;
+ font-size: 14px;
+ padding-top: 50px;
 }
 
-.button:active {
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+.CardImage {
+  width: 100%; /* Ensures the image takes up the full width of the container */
+  height: 100%; /* Ensures the image takes up the full height of the container */
+  object-fit: cover; /* Adjusts the image to cover the container without distortion */
+  box-shadow: 0px 0px 20px hsla(0, 0%, 0%, 0.10); /* Subtle shadow on all sides */
+  border-radius: 12px; /* Smooth, rounded corners */
+}
+
+
+.Card1_Section_image{
+ grid-column-start: 2;
+ grid-column-end: 9;
+ grid-row-start: 2;
+ grid-row-end: 3;
+ height: 350px;
+ /* overflow: hidden; Prevents overflow */
+}
+
+.Card1_SectonInfo_Right{
+ grid-column-start: 9;
+ grid-column-end: 14;
+ grid-row-start: 2;
+ grid-row-end: 3;
+ /* background-color: rgb(242, 218, 187); */
+ height: 350px;
+ display: flex;
+ align-items: flex-start;
+ padding-left: 30px;
+ flex-direction: column;
+ margin-bottom: 100px;
+}
+
+.CardTitle{
+ padding-top: 20px;
+ font-size: 38px;
+ font-weight: 600;
+}
+
+.CardDescription{
+ padding-top: 10px;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 1.6;
+ text-align:left;
+ color: #000000;
+}
+
+/* Card 2 */
+.Card2_Section_image{
+ grid-column-start: 7;
+ grid-column-end: 14;
+ grid-row-start: 3;
+ grid-row-end: 4;
+ height: 350px;
+ margin-bottom: 100px;
+}
+
+.Card2_SectonInfo_Right{
+ grid-column-start: 2;
+ grid-column-end: 7;
+ grid-row-start: 3;
+ grid-row-end: 4;
+ /* background-color: rgb(242, 218, 187); */
+ height: 350px;
+ display: flex;
+ align-items: flex-start;
+ padding-right: 30px;
+ flex-direction: column;
+}
+
+/* Card 3 */
+.Card3_Section_image{
+ grid-column-start: 2;
+ grid-column-end: 9;
+ grid-row-start: 4;
+ grid-row-end: 5;
+ height: 350px;
+}
+
+.Card3_SectonInfo_Right{
+ grid-column-start: 9;
+ grid-column-end: 14;
+ grid-row-start: 4;
+ grid-row-end: 5;
+ /* background-color: rgb(242, 218, 187); */
+ height: 350px;
+ display: flex;
+ align-items: flex-start;
+ padding-left: 30px;
+ flex-direction: column;
 }
 
 /* ===========================
@@ -204,4 +325,101 @@
     width: 180px;
     margin-bottom: 20px;
   }
+  
+  .Container_HomePageCard{
+    margin-top: 10px;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 5px;
+    grid-template-columns: 20px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 20px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+   
+   }
+   
+   .Container_HomePageCard_title{
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    align-items: left;
+    font-size: 14px;
+    padding-top: 30px;
+   }
+  
+   .Card1_Section_image{
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 220px;
+    /* overflow: hidden; Prevents overflow */
+   }
+
+   .Card1_SectonInfo_Right{
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    /* background-color: rgb(242, 218, 187); */
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 0px;
+    flex-direction: column;
+    margin-bottom: px;
+   }
+   
+   .CardTitle{
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+   }
+   
+   .CardDescription{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align:left;
+    color: #000000;
+    /* background-color: red; */
+    
+   }
+   
+   
+.button {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  white-space: nowrap;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.Card2_Section_image{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  height: 350px;
+  margin-bottom: 100px;
+ }
+ 
+ .Card2_SectonInfo_Right{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  /* background-color: rgb(242, 218, 187); */
+  height: 350px;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 30px;
+  flex-direction: column;
+ }
 }
