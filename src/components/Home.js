@@ -57,7 +57,7 @@ function Home() {
             {/* Card 1 */}
               <div className='Card1_Section_image'>
                   <div>
-                      <img src={`${process.env.PUBLIC_URL}/Easywork.png`} alt="Description of Image"className='CardImage'/>
+                      <img src={`${process.env.PUBLIC_URL}/EasyWorkCard.jpg`} alt="Description of Image"className='CardImage'/>
                   </div>
               </div>
 
