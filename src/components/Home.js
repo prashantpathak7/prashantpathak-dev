@@ -57,16 +57,16 @@ function Home() {
             {/* Card 1 */}
               <div className='Card1_Section_image'>
                   <div>
-                      <img src={`${process.env.PUBLIC_URL}/CM.webp`} alt="Description of Image"className='CardImage'/>
+                      <img src={`${process.env.PUBLIC_URL}/Easywork.png`} alt="Description of Image"className='CardImage'/>
                   </div>
               </div>
 
         <div className='Card1_SectonInfo_Right'>
             <div className='CardTitle'>
-                ConstructMonitor
+                EasyWork
             </div>
             <div className='CardDescription'>
-            Led the complete end-to-end UX design process for a SaaS platform that monitors construction progress, detects deviations, and forecasts potential clashes to optimize project outcomes.   </div>
+            Led the complete end-to-end UX design process for a web-based solution that digitizes workflows for government offices, resulting in increased speed, accountability, and transparency. </div>
             <div className='button'>
                 Know More
             </div>

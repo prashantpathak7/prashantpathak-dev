@@ -7,6 +7,7 @@ function Words() {
     // main div of the website 
        
   <div className='fiverr-review-container'>
+
     
     <div className='ImageForTitle'> 
         <img src={`${process.env.PUBLIC_URL}/memoji3.png`}
@@ -15,7 +16,7 @@ function Words() {
     
     <div className='fiver-review-title'>
       <h className = "Words-title"> What Clients Say </h>
-      <p className='Words-desc'> Here are some testimonials from my  <a href="https://www.fiverr.com/pathakprashant" target="_blank" class="link2">Fiverr profile</a> </p>
+      <p className='Words-desc'> Here are some testimonials from my  <a href="https://www.fiverr.com/pathakprashant" target="_blank" className="link22">Fiverr profile</a> </p>
     </div>
     
     <div className='reviewImageGrid1'>

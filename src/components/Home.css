@@ -188,7 +188,7 @@ Section 2
   width: 100%; /* Ensures the image takes up the full width of the container */
   height: 100%; /* Ensures the image takes up the full height of the container */
   object-fit: cover; /* Adjusts the image to cover the container without distortion */
-  box-shadow: 0px 0px 20px hsla(0, 0%, 0%, 0.10); /* Subtle shadow on all sides */
+  box-shadow: 0px 0px 20px hsla(0, 0%, 0%, 0.20); /* Subtle shadow on all sides */
   border-radius: 12px; /* Smooth, rounded corners */
 }
 
@@ -345,7 +345,8 @@ Section 2
     display: flex;
     align-items: left;
     font-size: 14px;
-    padding-top: 30px;
+    padding-top: 25px;
+    margin-bottom: 25px;
    }
   
    .Card1_Section_image{
@@ -372,18 +373,19 @@ Section 2
    }
    
    .CardTitle{
-    padding-top: 30px;
+    padding-top: 10px;
     font-size: 20px;
     font-weight: 600;
    }
    
    .CardDescription{
-    padding-top: 10px;
+    margin-top: 0px;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.4;
     text-align:left;
     color: #000000;
+    margin-bottom: 10px;
     /* background-color: red; */
     
    }
