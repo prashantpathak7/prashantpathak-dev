@@ -34,9 +34,9 @@ function Home() {
                           <h1 className='text-body-description'>
                           I'm currently working as a <span class="white-word">UI UX Specialist</span> at <span class="white-word">Neilsoft</span> in the Product Management division. 
                           In the past, I have worked as a freelancer on <span class="white-word"> Fiverr</span>, focusing on problem-solving from concept
-                           to productization. I also have experience in <span class="white-word"> Entrepreneurship</span> within the software industry. 
-                           As a product designer with a background in <span class="white-word"> IT Engineering</span>, I have created <span class="white-word"> 31+ product designs </span> 
-                           for clients from <span class="white-word"> 8+ countries</span>.
+                          to productization. I also have experience in <span class="white-word"> Entrepreneurship</span> within the software industry. 
+                          As a product designer with a background in <span class="white-word"> IT Engineering</span>, I have created <span class="white-word"> 31+ product designs </span> 
+                          for clients from <span class="white-word"> 8+ countries</span>.
                           </h1>
                      </div>  
         </div>
@@ -66,9 +66,10 @@ function Home() {
                 EasyWork
             </div>
             <div className='CardDescription'>
-            Led the complete end-to-end UX design process for a web-based solution that digitizes workflows for government offices, resulting in increased speed, accountability, and transparency. </div>
-            <div className='button'>
-                Know More
+            Led the complete end-to-end UX design process for a web-based solution that digitizes workflows for government offices, resulting in increased speed, accountability, and transparency. 
+            </div>
+            <div className='button' onClick={handleKnowMoreClick}>
+               Know More
             </div>
         </div>
 
