@@ -7,6 +7,7 @@
     background-color: rgb(255, 255, 255);
   }
   
+  /* section 1 : back arrow  */
   .page3_backicon {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
@@ -22,6 +23,8 @@
     margin-bottom: 30px;
   }
   
+
+  /* Section 2: Title EASyWork and Subtitle */
   .page3_Header {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
@@ -30,15 +33,15 @@
     grid-row-end: 4;
     display: flex;
     align-items: left;
-    font-size: 32px;
-    font-weight: 500;
+    font-size: 34px;
+    font-weight: 600;
     text-align: left;
-    line-height: 150%;
+    line-height: 90%;
   }
   
   .page3_Description {
     /* background-color: rgb(190, 190, 236); */
-    grid-column-start: 6;
+    grid-column-start: 5;
     grid-column-end: 14;
     grid-row-start: 3;
     grid-row-end: 4;
@@ -46,11 +49,11 @@
     align-items: left;
     font-size: 18px;
     font-weight: 400;
-    line-height: 160%;
+    line-height: 150%;
     text-align: left;
   }
   
-  /* {section 4: Background colour and Overview section} */
+  /* {section 3 : header image includes 3 wireframes } */
   .page3_HeaderImage {
     grid-column-start: 2;
     grid-column-end: 14;
@@ -67,6 +70,9 @@
     height: auto; /* Maintain the aspect ratio */
   }
 
+
+/* 
+      {/* Section 4: My role and Responsibility with time duration and tools  */
   .page3_info_bg {
     grid-column-start: 1;
     grid-column-end: 15;
@@ -75,8 +81,8 @@
     background: #eff1ff;
     /* height: 400px; */
     /* padding-bottom: 430px; */
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   .page3_info_Title {
@@ -96,7 +102,7 @@
   }
   
   .page3_section_left {
-    grid-column-start: 2;
+    grid-column-start: 3;
     grid-column-end: 9;
     grid-row-start: 5;
     grid-row-end: 6;
@@ -130,7 +136,7 @@
     margin-bottom: 40px;
   }
   
-  /* section 5 */
+  /* section 5 : Design Challanes*/
   .page3_Header_Section5 {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
@@ -139,14 +145,20 @@
     grid-row-end: 7;
     display: flex;
     align-items: left;
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 600;
     text-align: left;
+    margin-top: 20px;
+    margin-top: 50px;
+    line-height: 150%;
+
+    
+    color: #3452E6;
   }
   
   .page3_Description_Section5 {
     /* background-color: rgb(190, 190, 236); */
-    grid-column-start: 6;
+    grid-column-start: 5;
     grid-column-end: 14;
     grid-row-start: 6;
     grid-row-end: 7;
@@ -158,14 +170,18 @@
     margin-bottom: 10px;
     flex-direction: column;
     line-height: 150%;
+    margin-top: 50px;
+    margin-bottom: 40px;
   }
   
   .page3_BodyHeader {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     text-align: left;
-    line-height: 160%;
-    color: #3452E6;
+    line-height: 150%;
+
+    color: #000000;
+    /* color: #3452E6; */
   }
   
   .page3_BodyText {
@@ -182,75 +198,306 @@
   }
 
 
-  /* section 6 : Key Insights  */
+  .page3_BodyText_Highlight_Blue {
+    font-weight: 700;
+    color: #3452E6;
+  }
+
+  /* section 6 : Image for Userpainpoints  */
+  .page3_Section8_HeaderImage {
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    display: flex; /* Optional, for alignment purposes */
+    justify-content: center; /* Optional, center-align the image */
+    align-items: center; /* Optional, center-align vertically */
+    overflow: hidden; /* Prevent content overflow */
+    /* margin-bottom: 40px; */
+  }
+  
+  .page3_Section8_HeaderImage__img {
+    max-width: 100%; /* Prevent the image from exceeding the container's width */
+    height: auto; /* Maintain the aspect ratio */
+  }
+
+  /* section 7 : Officer query   */
+  .page3_SectionOfficerQuery_background{
+    grid-column-start: 1;
+    grid-column-end: 15;
+    grid-row-start: 8;
+    grid-row-end: 12;
+    background: #eff1ff;
+  }
+
+  .page3_SectionOfficerQuery_Image{
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-row-start: 9;
+    grid-row-end: 12;
+   }
+
+      /* section 8 : Design Process  */
+
+      .page3_Section7_Text_Left{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 13;
+        grid-row-end: 15;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: left;
+        line-height: 150%;
+        color: #3452E6;
+        margin-top: 18px;
+      }
+
+      .page3_Section7_Text_Right{
+        grid-column-start: 5;
+        grid-column-end: 14;
+        grid-row-start: 13;
+        grid-row-end: 15;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        line-height: 160%;
+        color: #1e1e1e;
+      }
+    
+    
+      .page3_Section7_Header{
+        font-size: 24px;
+        font-weight: 600;
+        text-align: left;
+        line-height: 150%;
+        color: #3452E6;
+        margin-top: 20px;
+      }
+  
+      .page3_Section7_HeaderImage {
+        grid-column-start: 5;
+        grid-column-end: 14;
+        grid-row-start: 15;
+        grid-row-end: 16;
+        display: flex; /* Optional, for alignment purposes */
+        justify-content: center; /* Optional, center-align the image */
+        align-items: center; /* Optional, center-align vertically */
+        overflow: hidden; /* Prevent content overflow */
+        margin-bottom: 40px;
+      }
+      
+      .page3_Section7_HeaderImage__img {
+        max-width: 100%; /* Prevent the image from exceeding the container's width */
+        height: auto; /* Maintain the aspect ratio */
+      }
+  
+  
+  /* section 9 : Key Insights  */
   .page3_Section6_background{
     grid-column-start: 1;
     grid-column-end: 15;
-    grid-row-start: 7;
-    grid-row-end: 10;
+    grid-row-start: 16;
+    grid-row-end: 19;
     background: #eff1ff;
   }
 
   .page3_Section6_Text{
-    grid-column-start: 3;
-    grid-column-end: 13;
-    grid-row-start: 8;
-    grid-row-end: 9;
+    grid-column-start: 4;
+    grid-column-end: 12;
+    grid-row-start: 17;
+    grid-row-end: 18;
     font-size: 18px;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
     line-height: 160%;
-    color: #474747;
+    padding-bottom: 20px;
+
+    padding-top: 15px;
+    color: #000000;
+    margin-bottom: 40px;
   }
 
   .page3_Section6_Header{
     font-size: 20px;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
     line-height: 160%;
     color: #3452E6;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
-    /* section 7 : Process  */
 
-    .page3_Section7_Text{
+    /* section 10 : Phase 1 implementation highlights  */
+  .page3_Header_Section10 {
+    /* background-color: rgb(190, 190, 236); */
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 20;
+    grid-row-end: 21;
+    display: flex;
+    align-items: left;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 40px;
+    line-height: 150%;
+    color: #3452E6;
+  }
+  
+  .page3_Description_Section10 {
+    /* background-color: rgb(190, 190, 236); */
+    grid-column-start: 5;
+    grid-column-end: 14;
+    grid-row-start: 20;
+    grid-row-end: 21;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 150%;
+    color: #1e1e1e;
+    margin-top: 40px;
+  }
+
+  
+    /* Section 11: dashboard image  */
+
+    .page3_image1_Description{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 150%;
+    color: #3452E6;
+    margin-top: 25px;
+    }
+
+
+    .page3_Section9_HeaderImage {
       grid-column-start: 2;
       grid-column-end: 14;
-      grid-row-start: 11;
-      grid-row-end: 12;
-      font-size: 18px;
-      font-weight: 400;
-      text-align: left;
-      line-height: 160%;
-      color: #1e1e1e;
+      grid-row-start: 22;
+      grid-row-end: 23;
+      display: flex; /* Optional, for alignment purposes */
+      justify-content: center; /* Optional, center-align the image */
+      align-items: center; /* Optional, center-align vertically */
+      /* overflow: hidden; Prevent content overflow */
+      margin-bottom: 10px;
+      flex-direction: column;
     }
-  
-    .page3_Section7_Header{
-      font-size: 20px;
-      font-weight: 600;
-      text-align: left;
-      line-height: 160%;
-      color: #3452E6;
-      margin-top: 20px;
+    
+    .page3_Section9_HeaderImage__img {
+      max-width: 100%; /* Prevent the image from exceeding the container's width */
+      height: auto; /* Maintain the aspect ratio */
     }
 
-    .page3_Section7_HeaderImage {
-      grid-column-start: 4;
-      grid-column-end: 12;
-      grid-row-start: 12;
-      grid-row-end: 13;
+
+        /* Section 12: dashboard image  */
+
+    
+        .page3_image2_Description{
+          font-size: 16px;
+          font-weight: 500;
+          text-align: left;
+          line-height: 150%;
+          color: #3452E6;
+          margin-top: 25px;
+          margin-bottom: 30px;
+          }
+      
+        .page3_Section12_HeaderImage {
+          grid-column-start: 2;
+          grid-column-end: 14;
+          grid-row-start: 24;
+          grid-row-end: 25;
+          display: flex; /* Optional, for alignment purposes */
+          justify-content: left; /* Optional, center-align the image */
+          align-items: left; /* Optional, center-align vertically */
+          overflow: hidden; /* Prevent content overflow */
+          /* margin-bottom: 40px; */
+          flex-direction: column;
+        }
+        
+        .page3_Section12_HeaderImage__img {
+          max-width: 100%; /* Prevent the image from exceeding the container's width */
+          height: auto; /* Maintain the aspect ratio */
+        }
+  
+    
+        /* Section 13: dashboard image  */
+        .page3_Section13_HeaderImage {
+          grid-column-start: 2;
+          grid-column-end: 14;
+          grid-row-start: 26;
+          grid-row-end: 27;
+          display: flex; /* Optional, for alignment purposes */
+          justify-content: center; /* Optional, center-align the image */
+          align-items: center; /* Optional, center-align vertically */
+          overflow: hidden; /* Prevent content overflow */
+          /* margin-bottom: 40px; */
+          flex-direction: column;
+        }
+        
+        .page3_Section13_HeaderImage__img {
+          max-width: 100%; /* Prevent the image from exceeding the container's width */
+          height: auto; /* Maintain the aspect ratio */
+        }
+    
+
+  /* Section 13: rack image  */
+        .page3_Section14_HeaderImage {
+          grid-column-start: 2;
+          grid-column-end: 14;
+          grid-row-start: 29;
+          grid-row-end: 30;
+          display: flex; /* Optional, for alignment purposes */
+          justify-content: center; /* Optional, center-align the image */
+          align-items: center; /* Optional, center-align vertically */
+          overflow: hidden; /* Prevent content overflow */
+          margin-bottom: 40px;
+          flex-direction: column;
+        }
+        
+        .page3_Section14_HeaderImage__img {
+          max-width: 100%; /* Prevent the image from exceeding the container's width */
+          height: auto; /* Maintain the aspect ratio */
+        }
+
+    /* Section 15: rack image  */
+    .page3_Section15_HeaderImage {
+      grid-column-start: 2;
+      grid-column-end: 14;
+      grid-row-start: 31;
+      grid-row-end: 32;
       display: flex; /* Optional, for alignment purposes */
       justify-content: center; /* Optional, center-align the image */
       align-items: center; /* Optional, center-align vertically */
       overflow: hidden; /* Prevent content overflow */
+      margin-bottom: 40px;
+      flex-direction: column;
     }
     
-    .page3_Section7_HeaderImage__img {
+    .page3_Section15_HeaderImage__img {
       max-width: 100%; /* Prevent the image from exceeding the container's width */
       height: auto; /* Maintain the aspect ratio */
     }
-  
+
+      /* Section 16: rack image  */
+      .page3_Section16_HeaderImage {
+        grid-column-start: 2;
+        grid-column-end: 14;
+        grid-row-start: 33;
+        grid-row-end: 34;
+        display: flex; /* Optional, for alignment purposes */
+        justify-content: center; /* Optional, center-align the image */
+        align-items: center; /* Optional, center-align vertically */
+        overflow: hidden; /* Prevent content overflow */
+        margin-bottom: 40px;
+        flex-direction: column;
+      }
+      
+      .page3_Section16_HeaderImage__img {
+        max-width: 100%; /* Prevent the image from exceeding the container's width */
+        height: auto; /* Maintain the aspect ratio */
+      }  
 
   @media (max-width: 480px) {
     /* Add responsive styles here */
