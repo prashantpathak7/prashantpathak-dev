@@ -54,7 +54,7 @@ function CS1() {
         <div className="page3_TitleAndDescriptionGroup">
           <div className="page3_info_Title">Tools</div>
           <div className="page3_info_Description">
-            Keynote, Balsamiq, Adobe XD, Trello, PowerPoint 
+            Keynote, Balsamiq, Adobe XD, Trello, PowerPoint, Zeplin, Figma 
           </div>
         </div>
 
@@ -169,7 +169,6 @@ function CS1() {
     src={`${process.env.PUBLIC_URL}/SummeryBoard5.png`}
     alt="Description of Image"
     className="page3_Section9_HeaderImage__img"/>
-    
     </div>
 
          
@@ -237,7 +236,7 @@ function CS1() {
     <p>📌 Reset Password Using OTP Without Internet Access on the User's Computer
     </p>
     <p className='page3_info_Description'> 
-      That time (Before the COVID-19 pandemic), many government offices restricted internet access for various reasons. To address the challenge of resetting passwords using OTPs in such environments, I designed a functionality. When a user clicks the "Forgot Password" option on a machine without internet access, the system generates and displays a QR code. This QR code contains a link with encrypted data. The user scans the QR code using an internet-enabled mobile device, which redirects the encrypted data to the server. The server processes the request and sends the OTP to the user's registered mobile number. The user then enters the received OTP into their machine. The machine verifies the OTP using pre-encrypted calculations, ensuring secure and seamless password recovery without requiring direct internet access on the user’s machine.
+      That time (Before the COVID-19 pandemic), many government offices restricted internet access for various reasons. allso the dont want to reset users passowrd by admin due to privacy issue. To address the challenge of resetting passwords using OTPs in such environments, I designed a functionality. When a user clicks the "Forgot Password" option on a machine without internet access, the system generates and displays a QR code. This QR code contains a link with encrypted data. The user scans the QR code using an internet-enabled mobile device, which redirects the encrypted data to the server. The server processes the request and sends the OTP to the user's registered mobile number. The user then enters the received OTP into their machine. The machine verifies the OTP using pre-encrypted calculations, ensuring secure and seamless password recovery without requiring direct internet access on the user’s machine.
     </p>
 
     </div>
@@ -247,7 +246,248 @@ function CS1() {
     className="page3_Section16_HeaderImage__img"/>
   </div>
     
-    
+  
+   {/* Section 17 : answer from officers Image*/}
+  <div className='page3_SectionOfficerAnswer_background'>
+  </div>
+
+  <div className='page3_SectionOfficerAnswer_Image'>
+  <img
+      src={`${process.env.PUBLIC_URL}/officer_Positive-2.png`}
+      alt="Description of Image"
+      className="page3_Section8_HeaderImage__img"/>
+      
+  </div>  
+
+
+   {/* Section 18 : problems in phase one */}
+  <div className="page3_Header_Section18">
+    Issues in Phase 1
+  </div>
+
+  <div className="page3_Description_Section18">
+      there are  <span class="page3_BodyText_Highlight"> some issue we found</span> after implementation of phase 1. which required the focus in phase 2 implementation. 
+  </div>
+
+
+  {/* Section 19 : Problem 1  */}
+  <div className="page3_Section19_HeaderImage">  
+  <div className='page3_image2_Description '>
+  <p>📌 Some application and file flows are missing.
+  </p>
+  <p className='page3_info_Description'> 
+  The application requires an inward entry for processing outward tasks. When an outward task is marked as complete, it relies on the corresponding inward entry. Using this approach, we can calculate the percentage of completion. In <span class="page3_BodyText_Highlight"> most cases (around 80% - 90%), this workflow operates as expected</span>. However, there are some exceptions where the are doing manual work becuase system not addressing it directly.
+  </p>
+  <p className='page3_info_Description'>
+Outward Without Inward:
+In some cases, there is only an outward entry because the letter is generated directly by the office, and no inward entry exists for it. In such cases, the system does not have an inward entry to associate with the outward task, which creates inconsistencies.
+</p>
+<p className='page3_info_Description'> 
+Inward Without Outward:
+There are cases where an inward entry exists, but no outward task is required. These entries remain marked as "pending" indefinitely, which increases the pendency count, even though there is no actual pending task.
+</p>
+<p className='page3_info_Description'>
+Inward with Multiple Outwards:
+Some inward entries require multiple outward tasks. However, the system currently marks the inward as "completed" after a single outward task is completed, even though additional outward tasks may still be pending. 
+  </p>
+
+  </div>
+  </div>
+
+
+  {/* Section 20 : Problem 1 image */}
+  <div className="page3_Section20_HeaderImage">
+       <img
+    src={`${process.env.PUBLIC_URL}/Issue1.png`}
+    alt="Description of Image"
+    className="page3_Section20_HeaderImage__img"/>
+  </div>
+
+
+  {/* Section 21 : Problem 2  text */}
+  <div className="page3_Section21_HeaderImage">  
+  <div className='page3_image2_Description '>
+  <p>📌 Safety and Security 
+  </p>
+  <p className='page3_info_Description'> 
+  We found certain practices that disturb the system. Some individuals use corrupted PDFs instead of valid ones. The server is hosted locally using a simple Apache Tomcat setup, which extracts the WAR file onto the local drive, making it easy to access. The database is also set up locally. Changes were found in the locally hosted files that differed from the original ones, leading to significant security and safety issues in the tampered systems. Backdated entries were discovered, caused by someone changing the server date. Additionally, several issues were identified that directly impacted data integrity and found unexpected changes. 
+  </p>
+
+  </div>
+  </div>
+
+
+  {/* Section 22 : Problem 2 image */}
+  {/* <div className="page3_Section22_HeaderImage">
+       <img
+    src={`${process.env.PUBLIC_URL}/UX_Process.png`}
+    alt="Description of Image"
+    className="page3_Section22_HeaderImage__img"/>
+  </div> */}
+
+
+  {/* Section 23 : Problem 3  text */}
+  <div className="page3_Section23_HeaderImage">  
+  <div className='page3_image2_Description '>
+  <p>📌 Some part of office still uncovered
+  </p>
+  <p className='page3_info_Description'> 
+  currently system give access to inward and outward employee also with all officer and branch officers for viewing only. but no any access for thier divisional level employee   
+  </p>
+
+  </div>
+  </div>
+
+
+  {/* Section 24 : Problem 3 image */}
+  {/* <div className="page3_Section24_HeaderImage">
+       <img
+    src={`${process.env.PUBLIC_URL}/UX_Process.png`}
+    alt="Description of Image"
+    className="page3_Section24_HeaderImage__img"/>
+  </div> */}
+
+{/* Section 25 : Key Insights from research */}
+<div className='page3_Section25_background'>
+      </div>
+
+      <div className='page3_Section25_Text'>
+        <p className='page3_Section25_Header'></p>
+        <p>
+        From the implementation of Phase 1, we found many advantages, but there are still some ongoing challenges. Our main goal for Phase 2 is to connect all offices and establish a communication bridge between them to reduce communication time. Additionally, departments within the same hierarchy should have real-time access to status updates. For example, officers in the Chief Minister's office will be able to know the status of activities at the taluka level with a simple click. 
+        </p>
+      </div>
+
+
+
+{/* phase 2 start */}
+
+{/* Section 26 : phase 2 tag line */}
+<div className="page3_Header_Section26">
+    Phase 2 Highlishts
+  </div>
+
+  <div className="page3_Description_Section26">
+      some parts from the phase 2 is deployed and most of the part was in develpment process. but from the wireframe and partial developed part gets good response after presenting to the potential customer. 
+  </div>
+
+
+  {/* Section 27 : Problem 1 text  */}
+  <div className="page3_Section27_HeaderImage">  
+  <div className='page3_image2_Description '>
+  <p>📌 Flow Chart
+  </p>
+  <p className='page3_info_Description'>  
+  Officers and employees have the same functionality, but the difference lies in their permissions. Officers have access to insights from all offices, while employees can only access insights that fall under their jurisdiction.  </p>
+  </div>
+  </div>
+
+
+  {/* Section 28 : Problem 1 image */}
+  <div className="page3_Section28_HeaderImage">
+       <img
+    src={`${process.env.PUBLIC_URL}/FlowChart.jpg`}
+    alt="Description of Image"
+    className="page3_Section28_HeaderImage__img"/>
+  </div>
+
+
+
+  {/* Section 29 : Problem 2 text  */}
+  {/* <div className="page3_Section29_HeaderImage">  
+  <div className='page3_image2_Description '>
+  <p>📌 LoFi from Balsamique 
+  </p>
+  <p className='page3_info_Description'> 
+  that time used balsamique to show instant mockups 
+  </p>
+
+  </div>
+  </div>
+ */}
+
+  {/* Section 30 : Problem 2 image */}
+  {/* <div className="page3_Section30_HeaderImage">
+       <img
+    src={`${process.env.PUBLIC_URL}/U.png`}
+    alt="Description of Image"
+    className="page3_Section30_HeaderImage__img"/>
+  </div>
+
+ */}
+
+  {/* Section 31 : wireframe text  */}
+  <div className="page3_Section31_HeaderImage">  
+  <div className='page3_image2_Description '>
+  <p>📌 wireframes 
+  </p>
+  <p className='page3_info_Description'> 
+  Key wireframes from phase 2  
+  </p>
+
+  </div>
+  </div>
+
+
+  {/* Section 32 : wireframe  image 1*/}
+  <div className="page3_Section32_HeaderImage">
+       <img
+    src={`${process.env.PUBLIC_URL}/Wireframe 1.png`}
+    alt="Description of Image"
+    className="page3_Section32_HeaderImage__img"/>
+  </div>
+
+  {/* Section 33 : wireframe  image 2 */}
+  <div className="page3_Section33_HeaderImage">
+       <img
+    src={`${process.env.PUBLIC_URL}/Wireframe 2.png`}
+    alt="Description of Image"
+    className="page3_Section33_HeaderImage__img"/>
+  </div>
+
+  {/* Section 34 : wireframe  image 3 */}
+  <div className="page3_Section34_HeaderImage">
+       <img
+    src={`${process.env.PUBLIC_URL}/Wireframe 3.png`}
+    alt="Description of Image"
+    className="page3_Section33_HeaderImage__img"/>
+  </div>
+
+
+  {/* Section 35 : wireframe  image 4 */}
+  <div className="page3_Section35_HeaderImage">
+       <img
+    src={`${process.env.PUBLIC_URL}/Wireframe 4.png`}
+    alt="Description of Image"
+    className="page3_Section33_HeaderImage__img"/>
+  </div>
+
+
+  {/* Section 36 : wireframe  image 5 */}
+  <div className="page3_Section36_HeaderImage">
+       <img
+    src={`${process.env.PUBLIC_URL}/Wireframe 5.png`}
+    alt="Description of Image"
+    className="page3_Section33_HeaderImage__img"/>
+  </div>
+
+  {/* Section 37 : wireframe  image 6 */}
+  <div className="page3_Section37_HeaderImage">
+       <img
+    src={`${process.env.PUBLIC_URL}/Wireframe 6.png`}
+    alt="Description of Image"
+    className="page3_Section33_HeaderImage__img"/>
+  </div>
+
+  {/* Section 38 : wireframe  image 7 */}
+  <div className="page3_Section38_HeaderImage">
+       <img
+    src={`${process.env.PUBLIC_URL}/Wireframe 7.png`}
+    alt="Description of Image"
+    className="page3_Section33_HeaderImage__img"/>
+  </div>
+
+
   </div>
 
   );

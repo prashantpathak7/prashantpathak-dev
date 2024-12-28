@@ -190,6 +190,7 @@ Section 2
   object-fit: cover; /* Adjusts the image to cover the container without distortion */
   box-shadow: 0px 0px 20px hsla(0, 0%, 0%, 0.20); /* Subtle shadow on all sides */
   border-radius: 12px; /* Smooth, rounded corners */
+  /* overflow: hidden; */
 }
 
 
@@ -231,50 +232,108 @@ Section 2
  color: #000000;
 }
 
-/* Card 2 */
-.Card2_Section_image{
- grid-column-start: 7;
- grid-column-end: 14;
- grid-row-start: 3;
- grid-row-end: 4;
- height: 350px;
- margin-bottom: 100px;
-}
 
-.Card2_SectonInfo_Right{
- grid-column-start: 2;
- grid-column-end: 7;
- grid-row-start: 3;
- grid-row-end: 4;
- /* background-color: rgb(242, 218, 187); */
- height: 350px;
- display: flex;
- align-items: flex-start;
- padding-right: 30px;
- flex-direction: column;
-}
+/* Card 2  */
+.Card1_Section_image_for2{
+  grid-column-start: 7;
+  grid-column-end: 14;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  height: 350px;
+  /* overflow: hidden; Prevents overflow */
+ }
+ 
+ .Card1_SectonInfo_Right_for2{
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  /* background-color: rgb(242, 218, 187); */
+  height: 350px;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 30px;
+  flex-direction: column;
+  margin-bottom: 100px;
+  /* height: 50px; */
+ }
+ 
+/* Card 3  */
+.Card1_Section_image_for3{
+  grid-column-start: 2;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  height: 350px;
+  /* overflow: hidden; Prevents overflow */
+ }
+ 
+ .Card1_SectonInfo_Right_for3{
+  grid-column-start: 9;
+  grid-column-end: 14;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  /* background-color: rgb(242, 218, 187); */
+  height: 350px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 30px;
+  flex-direction: column;
+  margin-bottom: 100px;
+  /* height: 50px; */
+ }
 
-/* Card 3 */
-.Card3_Section_image{
- grid-column-start: 2;
- grid-column-end: 9;
- grid-row-start: 4;
- grid-row-end: 5;
- height: 350px;
-}
+ /* Card 4  */
+.Card1_Section_image_for4{
+  grid-column-start: 7;
+  grid-column-end: 14;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  height: 350px;
+  /* overflow: hidden; Prevents overflow */
+ }
+ 
+ .Card1_SectonInfo_Right_for4{
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  /* background-color: rgb(242, 218, 187); */
+  height: 350px;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 30px;
+  flex-direction: column;
+  margin-bottom: 100px;
+  /* height: 50px; */
+ }
 
-.Card3_SectonInfo_Right{
- grid-column-start: 9;
- grid-column-end: 14;
- grid-row-start: 4;
- grid-row-end: 5;
- /* background-color: rgb(242, 218, 187); */
- height: 350px;
- display: flex;
- align-items: flex-start;
- padding-left: 30px;
- flex-direction: column;
-}
+
+ /* Card 3  */
+.Card1_Section_image_for5{
+  grid-column-start: 2;
+  grid-column-end: 9;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  height: 350px;
+  /* overflow: hidden; Prevents overflow */
+ }
+ 
+ .Card1_SectonInfo_Right_for5{
+  grid-column-start: 9;
+  grid-column-end: 14;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  /* background-color: rgb(242, 218, 187); */
+  height: 350px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 30px;
+  flex-direction: column;
+  margin-bottom: 100px;
+  /* height: 50px; */
+ }
+
 
 /* ===========================
    Media Queries (Responsive)
@@ -331,7 +390,7 @@ Section 2
     display: grid;
     row-gap: 10px;
     column-gap: 5px;
-    grid-template-columns: 20px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 20px;
+    grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 10px;
     background-color: rgb(255, 255, 255);
     margin-bottom: 100px;
    
@@ -349,31 +408,11 @@ Section 2
     margin-bottom: 25px;
    }
   
-   .Card1_Section_image{
-    grid-column-start: 2;
-    grid-column-end: 14;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    height: 220px;
-    /* overflow: hidden; Prevents overflow */
-   }
-
-   .Card1_SectonInfo_Right{
-    grid-column-start: 2;
-    grid-column-end: 14;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    /* background-color: rgb(242, 218, 187); */
-    height: auto;
-    display: flex;
-    align-items: flex-start;
-    padding-left: 0px;
-    flex-direction: column;
-    margin-bottom: px;
-   }
+  
    
    .CardTitle{
-    padding-top: 10px;
+    margin-top: 15px;
+    padding-top: 0px;
     font-size: 20px;
     font-weight: 600;
    }
@@ -385,7 +424,7 @@ Section 2
     line-height: 1.4;
     text-align:left;
     color: #000000;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     /* background-color: red; */
     
    }
@@ -393,8 +432,8 @@ Section 2
    
 .button {
   border: 1px solid black;
-  border-radius: 20px;
-  padding: 10px 20px;
+  border-radius: 8px;
+  padding: 10px 18px;
   background-color: transparent;
   color: black;
   cursor: pointer;
@@ -403,25 +442,134 @@ Section 2
   margin-top: 10px;
 }
 
-.Card2_Section_image{
+
+
+/* card 1 */
+.Card1_Section_image{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: 220px;
+  /* overflow: hidden; Prevents overflow */
+ }
+
+ .Card1_SectonInfo_Right{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  /* background-color: rgb(242, 218, 187); */
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  flex-direction: column;
+  margin-bottom: 80px;
+ }
+
+/* card 2 */
+.Card1_Section_image_for2{
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 5;
   grid-row-end: 6;
-  height: 350px;
-  margin-bottom: 100px;
+  height: 220px;
+  margin-bottom: 10px;
+  /* overflow: hidden; Prevents overflow */
  }
  
- .Card2_SectonInfo_Right{
+ .Card1_SectonInfo_Right_for2{
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 6;
   grid-row-end: 7;
   /* background-color: rgb(242, 218, 187); */
-  height: 350px;
+  height: auto;
   display: flex;
   align-items: flex-start;
-  padding-right: 30px;
+  padding-right: 0px;
   flex-direction: column;
+  margin-bottom: 80px;
+  /* height: 50px; */
  }
+
+ /* Card 3  */
+.Card1_Section_image_for3{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  height: 220px;
+  /* overflow: hidden; Prevents overflow */
+ }
+ 
+ .Card1_SectonInfo_Right_for3{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  /* background-color: rgb(242, 218, 187); */
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  flex-direction: column;
+  margin-bottom: 80px;
+  /* height: 50px; */
+ }
+
+ /* Card 4  */
+.Card1_Section_image_for4{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 12;
+  grid-row-end: 13;
+  height: 220px;
+  /* overflow: hidden; Prevents overflow */
+ }
+ 
+ .Card1_SectonInfo_Right_for4{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 14;
+  grid-row-end: 15;
+  /* background-color: rgb(242, 218, 187); */
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 0px;
+  flex-direction: column;
+  margin-bottom: 80px;
+  /* height: 50px; */
+ }
+
+
+ /* Card 5  */
+.Card1_Section_image_for5{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 16;
+  grid-row-end: 17;
+  height: 220px;
+  /* overflow: hidden;  */
+ }
+ 
+ .Card1_SectonInfo_Right_for5{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 18;
+  grid-row-end: 19;
+  /* background-color: rgb(242, 218, 187); */
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0px;
+  flex-direction: column;
+  margin-bottom: 50px;
+  /* overflow: hidden; */
+  /* height: 50px; */
+ }
+
+
 }
