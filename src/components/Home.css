@@ -51,7 +51,7 @@
 
 .button {
   border: 1px solid black;
-  border-radius: 20px;
+  border-radius: 8px;
   padding: 10px 20px;
   background-color: transparent;
   color: black;
@@ -59,6 +59,21 @@
   white-space: nowrap;
   width: fit-content;
   margin-top: 25px;
+}
+
+.buttonDisabled {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 10px 20px;
+  background-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  width: fit-content;
+  margin-top: 25px;
+
+  color: gray;
+  background-color: #f5f5f5;
+  cursor: not-allowed;
 }
 
 .button:hover {
@@ -221,6 +236,7 @@ Section 2
  padding-top: 20px;
  font-size: 38px;
  font-weight: 600;
+ text-align:left;
 }
 
 .CardDescription{
@@ -309,7 +325,7 @@ Section 2
  }
 
 
- /* Card 3  */
+ /* Card 5  */
 .Card1_Section_image_for5{
   grid-column-start: 2;
   grid-column-end: 9;
@@ -329,6 +345,31 @@ Section 2
   display: flex;
   align-items: flex-start;
   padding-left: 30px;
+  flex-direction: column;
+  margin-bottom: 100px;
+  /* height: 50px; */
+ }
+
+  /* Card 6  */
+.Card1_Section_image_for6{
+  grid-column-start: 7;
+  grid-column-end: 14;
+  grid-row-start: 12;
+  grid-row-end: 13;
+  height: 350px;
+  /* overflow: hidden; Prevents overflow */
+ }
+ 
+ .Card1_SectonInfo_Right_for6{
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 12;
+  grid-row-end: 13;
+  /* background-color: rgb(242, 218, 187); */
+  height: 350px;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 30px;
   flex-direction: column;
   margin-bottom: 100px;
   /* height: 50px; */
@@ -442,7 +483,21 @@ Section 2
   margin-top: 10px;
 }
 
-
+.buttonDisabled { /* For manually applying a 'disabled' class */
+  
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 10px 18px;
+  background-color: transparent;
+  
+  cursor: pointer;
+  white-space: nowrap;
+  width: fit-content;
+  margin-top: 10px;
+  color: gray;
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
 
 /* card 1 */
 .Card1_Section_image{
@@ -568,6 +623,31 @@ Section 2
   flex-direction: column;
   margin-bottom: 50px;
   /* overflow: hidden; */
+  /* height: 50px; */
+ }
+
+  /* Card 6  */
+.Card1_Section_image_for6{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 20;
+  grid-row-end: 21;
+  height: 220px;
+  /* overflow: hidden; Prevents overflow */
+ }
+ 
+ .Card1_SectonInfo_Right_for6{
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 22;
+  grid-row-end: 23;
+  /* background-color: rgb(242, 218, 187); */
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 0px;
+  flex-direction: column;
+  margin-bottom: 80px;
   /* height: 50px; */
  }
 

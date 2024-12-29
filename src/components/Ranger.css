@@ -1,0 +1,460 @@
+.Ranger_container {
+  margin-top: 50px;
+  display: grid;
+  row-gap: 30px;
+  column-gap: 5px;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 80px;
+}
+
+
+/* section 1: back arrow */
+.Ranger_backicon {
+grid-column-start: 2;
+grid-column-end: 5;
+grid-row-start: 2;
+grid-row-end: 3;
+display: flex;
+align-items: left;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.Ranger_backicon .back-arrow {
+display: inline-block;
+padding: 8px 12px; /* Add padding to make it more button-like */
+border-radius: 4px; /* Rounded corners for better aesthetics */
+cursor: pointer; /* Change the cursor to indicate a clickable button */
+transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.Ranger_backicon .back-arrow:hover {
+background-color: #ffebc9; /* Highlight background color */
+color: #000; /* Change the arrow color for better contrast */
+}
+
+/* Section 2: Title EASyWork and Subtitle */
+.Ranger_Header {
+  /* background-color: rgb(190, 190, 236); */
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  align-items: left;
+  font-size: 34px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 90%;
+}
+
+.Ranger_Description {
+  /* background-color: rgb(190, 190, 236); */
+  grid-column-start: 6;
+  grid-column-end: 14;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  align-items: left;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
+}
+
+/* {section 3 : header image includes 3 wireframes } */
+.Ranger_HeaderImage {
+  grid-column-start: 4;
+  grid-column-end: 12;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  display: flex; /* Optional, for alignment purposes */
+  justify-content: center; /* Optional, center-align the image */
+  align-items: center; /* Optional, center-align vertically */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+.Ranger_HeaderImage__img {
+  max-width: 100%; /* Prevent the image from exceeding the container's width */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+
+/* 
+    {/* Section 4: My role and Responsibility with time duration and tools  */
+.Ranger_info_bg {
+  grid-column-start: 1;
+  grid-column-end: 15;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  background: #ffebc9;
+  /* height: 400px; */
+  /* padding-bottom: 430px; */
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.Ranger_info_Title {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 160%;
+  margin-bottom: 10px;
+}
+
+.Ranger_info_Description {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  color: rgb(41, 41, 41);
+}
+
+.Ranger_section_left {
+  grid-column-start: 2;
+  grid-column-end: 9;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  margin-top: 80px;
+  display: flex;
+  justify-self: flex-start;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.Ranger_section_right {
+  grid-column-start: 10;
+  grid-column-end: 14;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  margin-top: 80px;
+  display: flex;
+  justify-self: flex-start;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.Ranger_TitleAndDescriptionGroup {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+/* section 5 : Design Challanes*/
+.Ranger_Header_Section5 {
+  /* background-color: rgb(190, 190, 236); */
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  display: flex;
+  align-items: left;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 0px;
+  margin-top: 10px;
+  line-height: 150%;
+
+  color: #e68d34;
+}
+
+.Ranger_Description_Section5 {
+  /* background-color: rgb(190, 190, 236); */
+  grid-column-start: 5;
+  grid-column-end: 14;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  display: flex;
+  align-items: left;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+  flex-direction: column;
+  line-height: 150%;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.Ranger_BodyHeader {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 150%;
+
+  color: #000000;
+  /* color: #3452E6; */
+}
+
+.Ranger_BodyText {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 160%;
+  color: #474747;
+}
+
+.Ranger_BodyText_Highlight {
+  font-weight: 600;
+  color: black;
+}
+
+
+.Ranger_BodyText_Highlight_Blue {
+  font-weight: 700;
+  color: #e68d34;
+}
+
+/* section 6 : Image for Userpainpoints  */
+.Ranger_Section8_HeaderImage {
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  display: flex; /* Optional, for alignment purposes */
+  flex-direction: column;
+  gap: 10px;
+  align-items: left;
+  align-self: left;
+  align-content: left;
+  justify-content: left;
+  justify-self: start;
+  justify-items: start;
+
+}
+
+
+.link11{
+  text-align: left;
+  line-height: 150%;
+  font-size: 16px;
+  color: #373737;
+  text-decoration: none;
+}
+
+
+@media (max-width: 480px) {
+  /* Add responsive styles here */
+
+  .Ranger_container {
+    margin-top: 60px;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 5px;
+    grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 10px;
+  }
+
+      /* section 1: back arrow */
+  .Ranger_backicon {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    align-items: left;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+/* Section 2: Title EasyWork and Subtitle */
+.Ranger_Header {
+  /* background-color: rgb(190, 190, 236); */
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  align-items: left;
+  font-size: 34px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Ranger_Description {
+  /* background-color: rgb(190, 190, 236); */
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: flex;
+  align-items: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+/* {section 3 : header image includes 3 wireframes } */
+.Ranger_HeaderImage {
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 13;
+  grid-row-end: 14;
+  display: flex; /* Optional, for alignment purposes */
+  justify-content: center; /* Optional, center-align the image */
+  align-items: center; /* Optional, center-align vertically */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+/* 
+{/* Section 4: My role and Responsibility with time duration and tools  */
+.Ranger_info_bg {
+  grid-column-start: 1;
+  grid-column-end: 15;
+  grid-row-start: 6;
+  grid-row-end: 9;
+  /* height: 400px; */
+  /* padding-bottom: 430px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Ranger_info_Title {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 160%;
+  margin-bottom: 4px;
+}
+
+.Ranger_info_Description {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  color: rgb(41, 41, 41);
+}
+
+.Ranger_section_left {
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  margin-top: 75px;
+  display: flex;
+  justify-self: flex-start;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.Ranger_section_right {
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  margin-top: 0px;
+  display: flex;
+  justify-self: flex-start;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+.Ranger_TitleAndDescriptionGroup {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+
+/* section 5 : Design Challanes*/
+.Ranger_Header_Section5 {
+  /* background-color: rgb(190, 190, 236); */
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  display: flex;
+  align-items: left;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 0px;
+  margin-top: 30px;
+  line-height: 150%;
+}
+
+.Ranger_Description_Section5 {
+  /* background-color: rgb(190, 190, 236); */
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  display: flex;
+  align-items: left;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+  flex-direction: column;
+  line-height: 150%;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.Ranger_BodyHeader {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 150%;
+
+  color: #000000;
+  /* color: #3452E6; */
+}
+
+.Ranger_BodyText {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 160%;
+  color: #474747;
+}
+
+.Ranger_BodyText_Highlight {
+  font-weight: 600;
+  color: black;
+}
+
+
+.Ranger_BodyText_Highlight_Blue {
+  font-weight: 700;
+  color: #3452E6;
+}
+
+/* section 6 : Image for Userpainpoints  */
+.Ranger_Section8_HeaderImage {
+  grid-column-start: 2;
+  grid-column-end: 14;
+  grid-row-start: 11;
+  grid-row-end: 12;
+  display: flex; /* Optional, for alignment purposes */
+ gap: 20px;
+}
+
+.Ranger_Section8_HeaderImage__img {
+  max-width: 100%; /* Prevent the image from exceeding the container's width */
+  height: auto; /* Maintain the aspect ratio */
+}
+  
+}

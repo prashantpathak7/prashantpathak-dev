@@ -18,6 +18,25 @@ function Home() {
   };
 
 
+  const handleKnowMoreClickCM = () => {
+    navigate('/CM');
+  };
+
+
+  const handleKnowMoreClickRanger = () => {
+    navigate('/Ranger');
+  };
+
+
+  const handleKnowMoreClickPocus = () => {
+    navigate('/Pocus');
+  };
+
+
+  const handleKnowMoreClickSG = () => {
+    navigate('/SG');
+  };
+
   const handleKnowMoreClick3 = () => {
     navigate('/CS3');
   };
@@ -57,19 +76,19 @@ function Home() {
             {/* Card 1 */}
               <div className='Card1_Section_image'>
                   <div>
-                      <img src={`${process.env.PUBLIC_URL}/EasyWorkCard.jpg`} alt="Description of Image"className='CardImage' onClick={handleKnowMoreClick}/>
+                      <img src={`${process.env.PUBLIC_URL}/EMM.png`} alt="Description of Image"className='CardImage'/>
                   </div>
               </div>
 
         <div className='Card1_SectonInfo_Right'>
             <div className='CardTitle'>
-                EasyWork
+                Energy Monitoring Solution
             </div>
             <div className='CardDescription'>
-            Led the complete end-to-end UX design process for a web-based solution that digitizes workflows for government offices, resulting in increased speed, accountability, and transparency. 
+            Led the end-to-end product design process and contributed to the development of complex data visualizations for an energy monitoring and management solution. 
             </div>
-            <div className='button' onClick={handleKnowMoreClick}>
-               Know More
+            <div className='buttonDisabled'>
+               Comming Soon
             </div>
         </div>
 
@@ -77,19 +96,20 @@ function Home() {
 
  <div className='Card1_Section_image_for2'>
                   <div>
-                      <img src={`${process.env.PUBLIC_URL}/Pocus.png`} alt="Description of Image"className='CardImage'/>
+                      <img src={`${process.env.PUBLIC_URL}/CM.png`} alt="Description of Image"className='CardImage' onClick={handleKnowMoreClickCM}/>
                   </div>
               </div>
 
         <div className='Card1_SectonInfo_Right_for2'>
             <div className='CardTitle'>
-                POCUS
+                ConstructMonitor
             </div>
             <div className='CardDescription'>
-            Led the complete end-to-end UX design process client from Sweden. 
+            Led the complete end-to-end UX design process to Streamline Success with SaaS Based Construction Management Software, 
+            Enhance Construction Quality and Progress Tracking. 
             </div>
-            <div className='button' onClick={handleKnowMoreClick}>
-               Know More
+            <div className='button' onClick={handleKnowMoreClickCM}>
+               Multiple NDA - View Limited Info
             </div>
         </div>
 
@@ -97,19 +117,20 @@ function Home() {
   {/* Card 3 */}
     <div className='Card1_Section_image_for3'>
         <div>
-            <img src={`${process.env.PUBLIC_URL}/EasyWorkCard.jpg`} alt="Description of Image"className='CardImage'/>
+            <img src={`${process.env.PUBLIC_URL}/Ranger-2.png`} alt="Description of Image"className='CardImage' onClick={handleKnowMoreClickRanger}/>
         </div>
     </div>
 
 <div className='Card1_SectonInfo_Right_for3'>
   <div className='CardTitle'>
-      Energy
+      Ranger
   </div>
   <div className='CardDescription'>
-  Led the complete end-to-end UX design process 
+  Digital twin based proprietary platform, Build the big picture of utilization & fuel consumption patterns across your diverse fleet with unmatched reports, analytics and advanced tools for in-depth analysis. 
+              
   </div>
-  <div className='button' onClick={handleKnowMoreClick}>
-      Comming Soon
+  <div className='button' onClick={handleKnowMoreClickRanger}>
+  Multiple NDA - View Limited Info
   </div>
 </div>
 
@@ -123,13 +144,13 @@ function Home() {
 
         <div className='Card1_SectonInfo_Right_for4'>
             <div className='CardTitle'>
-                Ranger
+            EasyWork
             </div>
             <div className='CardDescription'>
-            Led the complete end-to-end UX design process client from Sweden. 
+            Led the complete end-to-end UX design process for a web-based solution that digitizes workflows for government offices, resulting in increased speed, accountability, and transparency. 
             </div>
             <div className='button' onClick={handleKnowMoreClick}>
-               View Limited Info 
+               Know More 
             </div>
         </div>
 
@@ -137,23 +158,43 @@ function Home() {
   {/* Card 5 */}
   <div className='Card1_Section_image_for5'>
         <div>
-            <img src={`${process.env.PUBLIC_URL}/CM.webp`} alt="Description of Image"className='CardImage'/>
+            <img src={`${process.env.PUBLIC_URL}/Pocus-2.png`} alt="Description of Image"className='CardImage'/>
         </div>
     </div>
 
 <div className='Card1_SectonInfo_Right_for5'>
   <div className='CardTitle'>
-      ConstructMonitor
+      Pocus
   </div>
   <div className='CardDescription'>
-  Led the complete end-to-end UX design process 
+  Led all aspects of the product design process for a client from Sweden.
   </div>
-  <div className='button' onClick={handleKnowMoreClick}>
-      View Limited Info
+  <div className='button' onClick={handleKnowMoreClickPocus}>
+      Know More
   </div>
 </div>
 
 
+
+{/* card 6 */}
+
+<div className='Card1_Section_image_for6'>
+                  <div>
+                      <img src={`${process.env.PUBLIC_URL}/NEWS.png`} alt="Description of Image"className='CardImage'/>
+                  </div>
+              </div>
+
+        <div className='Card1_SectonInfo_Right_for6'>
+            <div className='CardTitle'>
+            Samarth Gavkari
+            </div>
+            <div className='CardDescription'>
+            The client wanted a UX for a mobile app in short time that would cater to the needs of their readers, including E-Paper.  
+            </div>
+            <div className='button' onClick={handleKnowMoreClickSG}>
+               Know More 
+            </div>
+        </div>
 
 
 

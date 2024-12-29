@@ -1,4 +1,4 @@
-.page3_container {
+.CS_SG_container {
     margin-top: 50px;
     display: grid;
     row-gap: 30px;
@@ -9,7 +9,7 @@
   
 
   /* section 1: back arrow */
-.page3_backicon {
+.CS_SG_backicon {
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 2;
@@ -23,7 +23,7 @@
   margin-bottom: 30px;
 }
 
-.page3_backicon .back-arrow {
+.CS_SG_backicon .back-arrow {
   display: inline-block;
   padding: 8px 12px; /* Add padding to make it more button-like */
   border-radius: 4px; /* Rounded corners for better aesthetics */
@@ -31,13 +31,13 @@
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
 }
 
-.page3_backicon .back-arrow:hover {
+.CS_SG_backicon .back-arrow:hover {
   background-color: #3452e628; /* Highlight background color */
   color: #000; /* Change the arrow color for better contrast */
 }
 
   /* Section 2: Title EASyWork and Subtitle */
-  .page3_Header {
+  .CS_SG_Header {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
     grid-column-end: 6;
@@ -51,7 +51,7 @@
     line-height: 90%;
   }
   
-  .page3_Description {
+  .CS_SG_Description {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 5;
     grid-column-end: 14;
@@ -66,7 +66,7 @@
   }
   
   /* {section 3 : header image includes 3 wireframes } */
-  .page3_HeaderImage {
+  .CS_SG_HeaderImage {
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 4;
@@ -77,7 +77,7 @@
     overflow: hidden; /* Prevent content overflow */
   }
   
-  .page3_HeaderImage__img {
+  .CS_SG_HeaderImage__img {
     max-width: 100%; /* Prevent the image from exceeding the container's width */
     height: auto; /* Maintain the aspect ratio */
   }
@@ -85,7 +85,7 @@
 
 /* 
       {/* Section 4: My role and Responsibility with time duration and tools  */
-  .page3_info_bg {
+  .CS_SG_info_bg {
     grid-column-start: 1;
     grid-column-end: 15;
     grid-row-start: 5;
@@ -97,7 +97,7 @@
     margin-bottom: 10px;
   }
   
-  .page3_info_Title {
+  .CS_SG_info_Title {
     text-align: left;
     font-size: 20px;
     font-weight: 600;
@@ -105,7 +105,7 @@
     margin-bottom: 10px;
   }
   
-  .page3_info_Description {
+  .CS_SG_info_Description {
     text-align: left;
     font-size: 16px;
     font-weight: 400;
@@ -113,7 +113,7 @@
     color: rgb(41, 41, 41);
   }
   
-  .page3_section_left {
+  .CS_SG_section_left {
     grid-column-start: 3;
     grid-column-end: 9;
     grid-row-start: 5;
@@ -126,7 +126,7 @@
     margin-bottom: 50px;
   }
   
-  .page3_section_right {
+  .CS_SG_section_right {
     grid-column-start: 10;
     grid-column-end: 14;
     grid-row-start: 5;
@@ -139,7 +139,7 @@
     margin-bottom: 50px;
   }
   
-  .page3_TitleAndDescriptionGroup {
+  .CS_SG_TitleAndDescriptionGroup {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
@@ -149,7 +149,7 @@
   }
   
   /* section 5 : Design Challanes*/
-  .page3_Header_Section5 {
+  .CS_SG_Header_Section5 {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
     grid-column-end: 6;
@@ -168,7 +168,7 @@
     color: #3452E6;
   }
   
-  .page3_Description_Section5 {
+  .CS_SG_Description_Section5 {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 5;
     grid-column-end: 14;
@@ -186,7 +186,7 @@
     margin-bottom: 40px;
   }
   
-  .page3_BodyHeader {
+  .CS_SG_BodyHeader {
     font-size: 24px;
     font-weight: 600;
     text-align: left;
@@ -196,7 +196,7 @@
     /* color: #3452E6; */
   }
   
-  .page3_BodyText {
+  .CS_SG_BodyText {
     font-size: 18px;
     font-weight: 400;
     text-align: left;
@@ -204,19 +204,19 @@
     color: #474747;
   }
 
-  .page3_BodyText_Highlight {
+  .CS_SG_BodyText_Highlight {
     font-weight: 600;
     color: black;
   }
 
 
-  .page3_BodyText_Highlight_Blue {
+  .CS_SG_BodyText_Highlight_Blue {
     font-weight: 700;
     color: #3452E6;
   }
 
   /* section 6 : Image for Userpainpoints  */
-  .page3_Section8_HeaderImage {
+  .CS_SG_Section8_HeaderImage {
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 7;
@@ -228,13 +228,13 @@
     /* margin-bottom: 40px; */
   }
   
-  .page3_Section8_HeaderImage__img {
+  .CS_SG_Section8_HeaderImage__img {
     max-width: 100%; /* Prevent the image from exceeding the container's width */
     height: auto; /* Maintain the aspect ratio */
   }
 
   /* section 7 : Officer query   */
-  .page3_SectionOfficerQuery_background{
+  .CS_SG_SectionOfficerQuery_background{
     grid-column-start: 1;
     grid-column-end: 15;
     grid-row-start: 8;
@@ -242,7 +242,7 @@
     background: #eff1ff;
   }
 
-  .page3_SectionOfficerQuery_Image{
+  .CS_SG_SectionOfficerQuery_Image{
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 9;
@@ -251,7 +251,7 @@
 
       /* section 8 : Design Process  */
 
-      .page3_Section7_Text_Left{
+      .CS_SG_Section7_Text_Left{
         grid-column-start: 2;
         grid-column-end: 5;
         grid-row-start: 13;
@@ -264,7 +264,7 @@
         margin-top: 18px;
       }
 
-      .page3_Section7_Text_Right{
+      .CS_SG_Section7_Text_Right{
         grid-column-start: 5;
         grid-column-end: 14;
         grid-row-start: 13;
@@ -277,7 +277,7 @@
       }
     
     
-      .page3_Section7_Header{
+      .CS_SG_Section7_Header{
         font-size: 24px;
         font-weight: 600;
         text-align: left;
@@ -286,7 +286,7 @@
         margin-top: 20px;
       }
   
-      .page3_Section7_HeaderImage {
+      .CS_SG_Section7_HeaderImage {
         grid-column-start: 5;
         grid-column-end: 14;
         grid-row-start: 15;
@@ -298,14 +298,14 @@
         margin-bottom: 40px;
       }
       
-      .page3_Section7_HeaderImage__img {
+      .CS_SG_Section7_HeaderImage__img {
         max-width: 100%; /* Prevent the image from exceeding the container's width */
         height: auto; /* Maintain the aspect ratio */
       }
   
   
   /* section 9 : Key Insights  */
-  .page3_Section6_background{
+  .CS_SG_Section6_background{
     grid-column-start: 1;
     grid-column-end: 15;
     grid-row-start: 16;
@@ -313,7 +313,7 @@
     background: #eff1ff;
   }
 
-  .page3_Section6_Text{
+  .CS_SG_Section6_Text{
     grid-column-start: 4;
     grid-column-end: 12;
     grid-row-start: 17;
@@ -329,7 +329,7 @@
     margin-bottom: 40px;
   }
 
-  .page3_Section6_Header{
+  .CS_SG_Section6_Header{
     font-size: 20px;
     font-weight: 600;
     text-align: center;
@@ -340,7 +340,7 @@
 
 
     /* section 10 : Phase 1 implementation highlights  */
-  .page3_Header_Section10 {
+  .CS_SG_Header_Section10 {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
     grid-column-end: 6;
@@ -356,7 +356,7 @@
     color: #3452E6;
   }
   
-  .page3_Description_Section10 {
+  .CS_SG_Description_Section10 {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 5;
     grid-column-end: 14;
@@ -373,7 +373,7 @@
   
     /* Section 11: dashboard image  */
 
-    .page3_image1_Description{
+    .CS_SG_image1_Description{
     font-size: 16px;
     font-weight: 500;
     text-align: left;
@@ -383,7 +383,7 @@
     }
 
 
-    .page3_Section9_HeaderImage {
+    .CS_SG_Section9_HeaderImage {
       grid-column-start: 2;
       grid-column-end: 14;
       grid-row-start: 22;
@@ -396,7 +396,7 @@
       flex-direction: column;
     }
     
-    .page3_Section9_HeaderImage__img {
+    .CS_SG_Section9_HeaderImage__img {
       max-width: 100%; /* Prevent the image from exceeding the container's width */
       height: auto; /* Maintain the aspect ratio */
     }
@@ -405,7 +405,7 @@
         /* Section 12: dashboard image  */
 
     
-        .page3_image2_Description{
+        .CS_SG_image2_Description{
           font-size: 16px;
           font-weight: 500;
           text-align: left;
@@ -415,7 +415,7 @@
           margin-bottom: 30px;
           }
       
-        .page3_Section12_HeaderImage {
+        .CS_SG_Section12_HeaderImage {
           grid-column-start: 2;
           grid-column-end: 14;
           grid-row-start: 24;
@@ -428,14 +428,14 @@
           flex-direction: column;
         }
         
-        .page3_Section12_HeaderImage__img {
+        .CS_SG_Section12_HeaderImage__img {
           max-width: 100%; /* Prevent the image from exceeding the container's width */
           height: auto; /* Maintain the aspect ratio */
         }
   
     
         /* Section 13: dashboard image  */
-        .page3_Section13_HeaderImage {
+        .CS_SG_Section13_HeaderImage {
           grid-column-start: 2;
           grid-column-end: 14;
           grid-row-start: 26;
@@ -448,14 +448,14 @@
           flex-direction: column;
         }
         
-        .page3_Section13_HeaderImage__img {
+        .CS_SG_Section13_HeaderImage__img {
           max-width: 100%; /* Prevent the image from exceeding the container's width */
           height: auto; /* Maintain the aspect ratio */
         }
     
 
   /* Section 13: rack image  */
-        .page3_Section14_HeaderImage {
+        .CS_SG_Section14_HeaderImage {
           grid-column-start: 2;
           grid-column-end: 14;
           grid-row-start: 29;
@@ -468,13 +468,13 @@
           flex-direction: column;
         }
         
-        .page3_Section14_HeaderImage__img {
+        .CS_SG_Section14_HeaderImage__img {
           max-width: 100%; /* Prevent the image from exceeding the container's width */
           height: auto; /* Maintain the aspect ratio */
         }
 
     /* Section 15: rack image  */
-    .page3_Section15_HeaderImage {
+    .CS_SG_Section15_HeaderImage {
       grid-column-start: 2;
       grid-column-end: 14;
       grid-row-start: 31;
@@ -487,13 +487,13 @@
       flex-direction: column;
     }
     
-    .page3_Section15_HeaderImage__img {
+    .CS_SG_Section15_HeaderImage__img {
       max-width: 100%; /* Prevent the image from exceeding the container's width */
       height: auto; /* Maintain the aspect ratio */
     }
 
       /* Section 16: rack image  */
-      .page3_Section16_HeaderImage {
+      .CS_SG_Section16_HeaderImage {
         grid-column-start: 2;
         grid-column-end: 14;
         grid-row-start: 33;
@@ -506,14 +506,14 @@
         flex-direction: column;
       }
       
-      .page3_Section16_HeaderImage__img {
+      .CS_SG_Section16_HeaderImage__img {
         max-width: 100%; /* Prevent the image from exceeding the container's width */
         height: auto; /* Maintain the aspect ratio */
       }  
 
 
 /* section 17 : answer from officer image  */
-.page3_SectionOfficerAnswer_background{
+.CS_SG_SectionOfficerAnswer_background{
   grid-column-start: 1;
   grid-column-end: 15;
   grid-row-start: 35;
@@ -521,7 +521,7 @@
   background: #eff1ff;  
 }
 
-.page3_SectionOfficerAnswer_Image{
+.CS_SG_SectionOfficerAnswer_Image{
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 36;
@@ -530,7 +530,7 @@
 
  /* section 18 : problems in phase one  */
 
- .page3_Header_Section18 {
+ .CS_SG_Header_Section18 {
   grid-column-start: 2;
   grid-column-end: 6;
   grid-row-start: 40;
@@ -545,7 +545,7 @@
   color: #3452E6;
 }
 
-.page3_Description_Section18 {
+.CS_SG_Description_Section18 {
   grid-column-start: 5;
   grid-column-end: 14;
   grid-row-start: 40;
@@ -559,7 +559,7 @@
 }
 
 /* Section 19: Problem 1  */
-.page3_Section19_HeaderImage {
+.CS_SG_Section19_HeaderImage {
 grid-column-start: 2;
 grid-column-end: 14;
 grid-row-start: 42;
@@ -573,7 +573,7 @@ flex-direction: column;
 }
 
 /* section 20 : problem 1 image  */
-.page3_Section20_HeaderImage {
+.CS_SG_Section20_HeaderImage {
   grid-column-start: 4;
   grid-column-end: 12;
   grid-row-start: 44;
@@ -585,13 +585,13 @@ flex-direction: column;
   margin-bottom: 40px;
 }
 
-.page3_Section20_HeaderImage__img {
+.CS_SG_Section20_HeaderImage__img {
   max-width: 100%; /* Prevent the image from exceeding the container's width */
   height: auto; /* Maintain the aspect ratio */
 }
 
 /* Section 21: Problem 2 text  */
-.page3_Section21_HeaderImage {
+.CS_SG_Section21_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 46;
@@ -605,7 +605,7 @@ flex-direction: column;
   }
   
   /* section 22 : problem 1 image  */
-  .page3_Section22_HeaderImage {
+  .CS_SG_Section22_HeaderImage {
     grid-column-start: 4;
     grid-column-end: 12;
     grid-row-start: 47;
@@ -617,7 +617,7 @@ flex-direction: column;
     margin-bottom: 40px;
   }
   
-  .page3_Section22_HeaderImage__img {
+  .CS_SG_Section22_HeaderImage__img {
     max-width: 100%; /* Prevent the image from exceeding the container's width */
     height: auto; /* Maintain the aspect ratio */
   }
@@ -625,7 +625,7 @@ flex-direction: column;
 
 
 /* Section 23: Problem 1 text  */
-.page3_Section23_HeaderImage {
+.CS_SG_Section23_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 49;
@@ -639,7 +639,7 @@ flex-direction: column;
   }
   
   /* section 24 : problem 1 image  */
-  .page3_Section24_HeaderImage {
+  .CS_SG_Section24_HeaderImage {
     grid-column-start: 4;
     grid-column-end: 12;
     grid-row-start: 50;
@@ -651,14 +651,14 @@ flex-direction: column;
     margin-bottom: 40px;
   }
   
-  .page3_Section24_HeaderImage__img {
+  .CS_SG_Section24_HeaderImage__img {
     max-width: 100%; /* Prevent the image from exceeding the container's width */
     height: auto; /* Maintain the aspect ratio */
   }
   
     
   /* section 25 : Key Insights  */
-  .page3_Section25_background{
+  .CS_SG_Section25_background{
     grid-column-start: 1;
     grid-column-end: 15;
     grid-row-start: 52;
@@ -666,7 +666,7 @@ flex-direction: column;
     background: #eff1ff;
   }
 
-  .page3_Section25_Text{
+  .CS_SG_Section25_Text{
     grid-column-start: 4;
     grid-column-end: 12;
     grid-row-start: 53;
@@ -682,7 +682,7 @@ flex-direction: column;
     margin-bottom: 40px;
   }
 
-  .page3_Section25_Header{
+  .CS_SG_Section25_Header{
     font-size: 20px;
     font-weight: 600;
     text-align: center;
@@ -694,7 +694,7 @@ flex-direction: column;
   /* phase 2 start  */
  /* section 26 : phase 2 tag line   */
 
- .page3_Header_Section26 {
+ .CS_SG_Header_Section26 {
   grid-column-start: 2;
   grid-column-end: 6;
   grid-row-start: 55;
@@ -709,7 +709,7 @@ flex-direction: column;
   color: #3452E6;
 }
 
-.page3_Description_Section26 {
+.CS_SG_Description_Section26 {
   grid-column-start: 5;
   grid-column-end: 14;
   grid-row-start: 55;
@@ -723,7 +723,7 @@ flex-direction: column;
 }
 
 /* Section 27 : Problem 1  */
-.page3_Section27_HeaderImage {
+.CS_SG_Section27_HeaderImage {
 grid-column-start: 2;
 grid-column-end: 14;
 grid-row-start: 57;
@@ -737,7 +737,7 @@ flex-direction: column;
 }
 
 /* section 28 : problem 1 image  */
-.page3_Section28_HeaderImage {
+.CS_SG_Section28_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 59;
@@ -749,7 +749,7 @@ flex-direction: column;
   margin-bottom: 40px;
 }
 
-.page3_Section28_HeaderImage__img {
+.CS_SG_Section28_HeaderImage__img {
   max-width: 100%; /* Prevent the image from exceeding the container's width */
   height: auto; /* Maintain the aspect ratio */
 }
@@ -757,7 +757,7 @@ flex-direction: column;
 
 
 /* Section 29 : Flow Chart text  */
-.page3_Section29_HeaderImage {
+.CS_SG_Section29_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 61;
@@ -772,7 +772,7 @@ flex-direction: column;
 
 
 /* section 30  : Flow Chart  image  */
-.page3_Section30_HeaderImage {
+.CS_SG_Section30_HeaderImage {
   grid-column-start: 4;
   grid-column-end: 12;
   grid-row-start: 63;
@@ -784,14 +784,14 @@ flex-direction: column;
   margin-bottom: 0px;
 }
 
-.page3_Section30_HeaderImage__img {
+.CS_SG_Section30_HeaderImage__img {
   max-width: 100%; /* Prevent the image from exceeding the container's width */
   height: auto; /* Maintain the aspect ratio */
 }
 
 
 /* Section 31 : wireframe Chart text  */
-.page3_Section31_HeaderImage {
+.CS_SG_Section31_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 64;
@@ -806,7 +806,7 @@ flex-direction: column;
 
 
 /* section 32  : wireframe  image 1 */
-.page3_Section32_HeaderImage {
+.CS_SG_Section32_HeaderImage {
   grid-column-start: 3;
   grid-column-end: 13;
   grid-row-start: 65;
@@ -818,13 +818,13 @@ flex-direction: column;
   margin-bottom: 30px;
 }
 
-.page3_Section32_HeaderImage__img {
+.CS_SG_Section32_HeaderImage__img {
   max-width: 100%; /* Prevent the image from exceeding the container's width */
   height: auto; /* Maintain the aspect ratio */
 }
 
 /* section 33 : Wireframe image 2  */
-.page3_Section33_HeaderImage {
+.CS_SG_Section33_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 67;
@@ -836,13 +836,13 @@ flex-direction: column;
   margin-bottom: 30px;
 }
 
-.page3_Section33_HeaderImage__img {
+.CS_SG_Section33_HeaderImage__img {
   max-width: 100%; /* Prevent the image from exceeding the container's width */
   height: auto; /* Maintain the aspect ratio */
 }
 
 /* section 34 : wireframe Image 3 */
-.page3_Section34_HeaderImage {
+.CS_SG_Section34_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 68;
@@ -856,7 +856,7 @@ flex-direction: column;
 
 
 /* section 35 : wireframe Image 4 */
-.page3_Section35_HeaderImage {
+.CS_SG_Section35_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 70;
@@ -869,7 +869,7 @@ flex-direction: column;
 }
 
 /* section 36 : wireframe Image 5 */
-.page3_Section36_HeaderImage {
+.CS_SG_Section36_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 72;
@@ -882,7 +882,7 @@ flex-direction: column;
 }
 
 /* section 37 : wireframe Image 6 */
-.page3_Section37_HeaderImage {
+.CS_SG_Section37_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 74;
@@ -895,7 +895,7 @@ flex-direction: column;
 }
 
 /* section 38 : wireframe Image 7 */
-.page3_Section38_HeaderImage {
+.CS_SG_Section38_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 76;
@@ -912,7 +912,7 @@ flex-direction: column;
   @media (max-width: 480px) {
     /* Add responsive styles here */
 
-    .page3_container {
+    .CS_SG_container {
       margin-top: 60px;
       display: grid;
       row-gap: 10px;
@@ -921,7 +921,7 @@ flex-direction: column;
     }
 
         /* section 1: back arrow */
-    .page3_backicon {
+    .CS_SG_backicon {
       grid-column-start: 1;
       grid-column-end: 5;
       grid-row-start: 2;
@@ -936,7 +936,7 @@ flex-direction: column;
     }
 
   /* Section 2: Title EasyWork and Subtitle */
-  .page3_Header {
+  .CS_SG_Header {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
     grid-column-end: 6;
@@ -952,7 +952,7 @@ flex-direction: column;
     margin-bottom: 10px;
   }
   
-  .page3_Description {
+  .CS_SG_Description {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
     grid-column-end: 14;
@@ -968,7 +968,7 @@ flex-direction: column;
   }
 
   /* {section 3 : header image includes 3 wireframes } */
-  .page3_HeaderImage {
+  .CS_SG_HeaderImage {
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 5;
@@ -981,7 +981,7 @@ flex-direction: column;
 
 /* 
   {/* Section 4: My role and Responsibility with time duration and tools  */
-  .page3_info_bg {
+  .CS_SG_info_bg {
     grid-column-start: 1;
     grid-column-end: 15;
     grid-row-start: 6;
@@ -993,7 +993,7 @@ flex-direction: column;
     margin-bottom: 20px;
   }
   
-  .page3_info_Title {
+  .CS_SG_info_Title {
     text-align: left;
     font-size: 18px;
     font-weight: 600;
@@ -1001,7 +1001,7 @@ flex-direction: column;
     margin-bottom: 4px;
   }
   
-  .page3_info_Description {
+  .CS_SG_info_Description {
     text-align: left;
     font-size: 16px;
     font-weight: 400;
@@ -1009,7 +1009,7 @@ flex-direction: column;
     color: rgb(41, 41, 41);
   }
   
-  .page3_section_left {
+  .CS_SG_section_left {
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 6;
@@ -1022,7 +1022,7 @@ flex-direction: column;
     margin-bottom: 0px;
   }
   
-  .page3_section_right {
+  .CS_SG_section_right {
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 7;
@@ -1035,7 +1035,7 @@ flex-direction: column;
     margin-bottom: 35px;
   }
   
-  .page3_TitleAndDescriptionGroup {
+  .CS_SG_TitleAndDescriptionGroup {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
@@ -1046,7 +1046,7 @@ flex-direction: column;
 
 
   /* section 5 : Design Challanes*/
-  .page3_Header_Section5 {
+  .CS_SG_Header_Section5 {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
     grid-column-end: 14;
@@ -1063,7 +1063,7 @@ flex-direction: column;
     color: #3452E6;
   }
   
-  .page3_Description_Section5 {
+  .CS_SG_Description_Section5 {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
     grid-column-end: 14;
@@ -1081,7 +1081,7 @@ flex-direction: column;
     margin-bottom: 15px;
   }
   
-  .page3_BodyHeader {
+  .CS_SG_BodyHeader {
     font-size: 20px;
     font-weight: 600;
     text-align: left;
@@ -1091,7 +1091,7 @@ flex-direction: column;
     /* color: #3452E6; */
   }
   
-  .page3_BodyText {
+  .CS_SG_BodyText {
     font-size: 16px;
     font-weight: 400;
     text-align: left;
@@ -1099,19 +1099,19 @@ flex-direction: column;
     color: #474747;
   }
 
-  .page3_BodyText_Highlight {
+  .CS_SG_BodyText_Highlight {
     font-weight: 600;
     color: black;
   }
 
 
-  .page3_BodyText_Highlight_Blue {
+  .CS_SG_BodyText_Highlight_Blue {
     font-weight: 700;
     color: #3452E6;
   }
 
   /* section 6 : Image for Userpainpoints  */
-  .page3_Section8_HeaderImage {
+  .CS_SG_Section8_HeaderImage {
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 11;
@@ -1123,13 +1123,13 @@ flex-direction: column;
     /* margin-bottom: 40px; */
   }
   
-  .page3_Section8_HeaderImage__img {
+  .CS_SG_Section8_HeaderImage__img {
     max-width: 100%; /* Prevent the image from exceeding the container's width */
     height: auto; /* Maintain the aspect ratio */
   }
 
   /* section 7 : Officer query   */
-  .page3_SectionOfficerQuery_background{
+  .CS_SG_SectionOfficerQuery_background{
     grid-column-start: 1;
     grid-column-end: 15;
     grid-row-start: 13;
@@ -1137,7 +1137,7 @@ flex-direction: column;
     background: #eff1ff;
   }
 
-  .page3_SectionOfficerQuery_Image{
+  .CS_SG_SectionOfficerQuery_Image{
     grid-column-start: 1;
     grid-column-end: 15;
     grid-row-start: 14;
@@ -1146,7 +1146,7 @@ flex-direction: column;
 
   /* section 8 : Design Process  */
 
-  .page3_Section7_Text_Left{
+  .CS_SG_Section7_Text_Left{
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 17;
@@ -1159,7 +1159,7 @@ flex-direction: column;
     margin-top: 40px;
   }
 
-  .page3_Section7_Text_Right{
+  .CS_SG_Section7_Text_Right{
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 18;
@@ -1173,7 +1173,7 @@ flex-direction: column;
   }
 
 
-  .page3_Section7_Header{
+  .CS_SG_Section7_Header{
     font-size: 24px;
     font-weight: 600;
     text-align: left;
@@ -1182,7 +1182,7 @@ flex-direction: column;
     margin-top: 0px;
   }
 
-  .page3_Section7_HeaderImage {
+  .CS_SG_Section7_HeaderImage {
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 19;
@@ -1194,14 +1194,14 @@ flex-direction: column;
     margin-bottom: 40px;
   }
   
-  .page3_Section7_HeaderImage__img {
+  .CS_SG_Section7_HeaderImage__img {
     max-width: 100%; /* Prevent the image from exceeding the container's width */
     height: auto; /* Maintain the aspect ratio */
   }
 
   
   /* section 9 : Key Insights  */
-  .page3_Section6_background{
+  .CS_SG_Section6_background{
     grid-column-start: 1;
     grid-column-end: 15;
     grid-row-start: 20;
@@ -1209,7 +1209,7 @@ flex-direction: column;
     background: #eff1ff;
   }
 
-  .page3_Section6_Text{
+  .CS_SG_Section6_Text{
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 21;
@@ -1224,7 +1224,7 @@ flex-direction: column;
     margin-bottom: 30px;
   }
 
-  .page3_Section6_Header{
+  .CS_SG_Section6_Header{
     font-size: 18px;
     font-weight: 600;
     text-align: left;
@@ -1235,7 +1235,7 @@ flex-direction: column;
 
 
     /* section 10 : Phase 1 implementation highlights  */
-  .page3_Header_Section10 {
+  .CS_SG_Header_Section10 {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
     grid-column-end: 12;
@@ -1251,7 +1251,7 @@ flex-direction: column;
     color: #3452E6;
   }
   
-  .page3_Description_Section10 {
+  .CS_SG_Description_Section10 {
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
     grid-column-end: 14;
@@ -1267,7 +1267,7 @@ flex-direction: column;
 
   
     /* Section 11: dashboard image  */
-    .page3_image1_Description{
+    .CS_SG_image1_Description{
     font-size: 16px;
     font-weight: 500;
     text-align: left;
@@ -1277,7 +1277,7 @@ flex-direction: column;
     }
 
 
-  .page3_Section9_HeaderImage {
+  .CS_SG_Section9_HeaderImage {
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 25;
@@ -1290,14 +1290,14 @@ flex-direction: column;
     flex-direction: column;
   }
   
-  .page3_Section9_HeaderImage__img {
+  .CS_SG_Section9_HeaderImage__img {
     max-width: 100%; /* Prevent the image from exceeding the container's width */
     height: auto; /* Maintain the aspect ratio */
   }
 
 
   /* Section 12: Admin image  */
-  .page3_image2_Description{
+  .CS_SG_image2_Description{
     font-size: 16px;
     font-weight: 500;
     text-align: left;
@@ -1307,7 +1307,7 @@ flex-direction: column;
     margin-bottom: 30px;
     }
 
-  .page3_Section12_HeaderImage {
+  .CS_SG_Section12_HeaderImage {
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 27;
@@ -1320,14 +1320,14 @@ flex-direction: column;
     flex-direction: column;
   }
   
-  .page3_Section12_HeaderImage__img {
+  .CS_SG_Section12_HeaderImage__img {
     max-width: 100%; /* Prevent the image from exceeding the container's width */
     height: auto; /* Maintain the aspect ratio */
   }
 
 
   /* Section 13: dashboard image  */
-  .page3_Section13_HeaderImage {
+  .CS_SG_Section13_HeaderImage {
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 29;
@@ -1340,14 +1340,14 @@ flex-direction: column;
     flex-direction: column;
   }
   
-  .page3_Section13_HeaderImage__img {
+  .CS_SG_Section13_HeaderImage__img {
     max-width: 100%; /* Prevent the image from exceeding the container's width */
     height: auto; /* Maintain the aspect ratio */
   }
 
 
   /* Section 13: rack image  */
-        .page3_Section14_HeaderImage {
+        .CS_SG_Section14_HeaderImage {
           grid-column-start: 2;
           grid-column-end: 14;
           grid-row-start: 30;
@@ -1360,13 +1360,13 @@ flex-direction: column;
           flex-direction: column;
         }
         
-        .page3_Section14_HeaderImage__img {
+        .CS_SG_Section14_HeaderImage__img {
           max-width: 100%; /* Prevent the image from exceeding the container's width */
           height: auto; /* Maintain the aspect ratio */
         }
 
     /* Section 15: rack image  */
-    .page3_Section15_HeaderImage {
+    .CS_SG_Section15_HeaderImage {
       grid-column-start: 2;
       grid-column-end: 14;
       grid-row-start: 32;
@@ -1379,13 +1379,13 @@ flex-direction: column;
       flex-direction: column;
     }
     
-    .page3_Section15_HeaderImage__img {
+    .CS_SG_Section15_HeaderImage__img {
       max-width: 100%; /* Prevent the image from exceeding the container's width */
       height: auto; /* Maintain the aspect ratio */
     }
 
       /* Section 16: rack image  */
-      .page3_Section16_HeaderImage {
+      .CS_SG_Section16_HeaderImage {
         grid-column-start: 2;
         grid-column-end: 14;
         grid-row-start: 34;
@@ -1398,14 +1398,14 @@ flex-direction: column;
         flex-direction: column;
       }
       
-      .page3_Section16_HeaderImage__img {
+      .CS_SG_Section16_HeaderImage__img {
         max-width: 100%; /* Prevent the image from exceeding the container's width */
         height: auto; /* Maintain the aspect ratio */
       }  
 
 
 /* section 17 : answer from officer image  */
-.page3_SectionOfficerAnswer_background{
+.CS_SG_SectionOfficerAnswer_background{
   grid-column-start: 1;
   grid-column-end: 15;
   grid-row-start: 36;
@@ -1413,7 +1413,7 @@ flex-direction: column;
   background: #eff1ff;  
 }
 
-.page3_SectionOfficerAnswer_Image{
+.CS_SG_SectionOfficerAnswer_Image{
   grid-column-start: 1;
   grid-column-end: 15;
   grid-row-start: 37;
@@ -1422,7 +1422,7 @@ flex-direction: column;
 
  /* section 18 : problems in phase one  */
 
- .page3_Header_Section18 {
+ .CS_SG_Header_Section18 {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 40;
@@ -1437,7 +1437,7 @@ flex-direction: column;
   color: #3452E6;
 }
 
-.page3_Description_Section18 {
+.CS_SG_Description_Section18 {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 41;
@@ -1451,7 +1451,7 @@ flex-direction: column;
 }
 
 /* Section 19: Problem 1  */
-.page3_Section19_HeaderImage {
+.CS_SG_Section19_HeaderImage {
 grid-column-start: 2;
 grid-column-end: 14;
 grid-row-start: 43;
@@ -1465,7 +1465,7 @@ flex-direction: column;
 }
 
 /* section 20 : problem 1 image  */
-.page3_Section20_HeaderImage {
+.CS_SG_Section20_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 45;
@@ -1477,13 +1477,13 @@ flex-direction: column;
   margin-bottom: 0px;
 }
 
-.page3_Section20_HeaderImage__img {
+.CS_SG_Section20_HeaderImage__img {
   max-width: 100%; /* Prevent the image from exceeding the container's width */
   height: auto; /* Maintain the aspect ratio */
 }
 
 /* Section 21: Problem 2 text  */
-.page3_Section21_HeaderImage {
+.CS_SG_Section21_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 47;
@@ -1497,7 +1497,7 @@ flex-direction: column;
   }
   
   /* section 22 : problem 1 image  */
-  .page3_Section22_HeaderImage {
+  .CS_SG_Section22_HeaderImage {
     grid-column-start: 4;
     grid-column-end: 12;
     grid-row-start: 48;
@@ -1509,7 +1509,7 @@ flex-direction: column;
     margin-bottom: 0px;
   }
   
-  .page3_Section22_HeaderImage__img {
+  .CS_SG_Section22_HeaderImage__img {
     max-width: 100%; /* Prevent the image from exceeding the container's width */
     height: auto; /* Maintain the aspect ratio */
   }
@@ -1517,7 +1517,7 @@ flex-direction: column;
 
 
 /* Section 23: Problem 1 text  */
-.page3_Section23_HeaderImage {
+.CS_SG_Section23_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 50;
@@ -1531,7 +1531,7 @@ flex-direction: column;
   }
   
   /* section 24 : problem 1 image  */
-  .page3_Section24_HeaderImage {
+  .CS_SG_Section24_HeaderImage {
     grid-column-start: 4;
     grid-column-end: 12;
     grid-row-start: 51;
@@ -1543,14 +1543,14 @@ flex-direction: column;
     margin-bottom: 0px;
   }
   
-  .page3_Section24_HeaderImage__img {
+  .CS_SG_Section24_HeaderImage__img {
     max-width: 100%; /* Prevent the image from exceeding the container's width */
     height: auto; /* Maintain the aspect ratio */
   }
   
     
   /* section 25 : Key Insights  */
-  .page3_Section25_background{
+  .CS_SG_Section25_background{
     grid-column-start: 1;
     grid-column-end: 15;
     grid-row-start: 53;
@@ -1558,7 +1558,7 @@ flex-direction: column;
     background: #eff1ff;
   }
 
-  .page3_Section25_Text{
+  .CS_SG_Section25_Text{
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 54;
@@ -1574,7 +1574,7 @@ flex-direction: column;
     margin-bottom: 40px;
   }
 
-  .page3_Section25_Header{
+  .CS_SG_Section25_Header{
     font-size: 20px;
     font-weight: 600;
     text-align: center;
@@ -1586,7 +1586,7 @@ flex-direction: column;
   /* phase 2 start  */
  /* section 26 : phase 2 tag line   */
 
- .page3_Header_Section26 {
+ .CS_SG_Header_Section26 {
   grid-column-start: 2;
   grid-column-end: 10;
   grid-row-start: 56;
@@ -1601,7 +1601,7 @@ flex-direction: column;
   color: #3452E6;
 }
 
-.page3_Description_Section26 {
+.CS_SG_Description_Section26 {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 57;
@@ -1615,7 +1615,7 @@ flex-direction: column;
 }
 
 /* Section 27 : Problem 1  */
-.page3_Section27_HeaderImage {
+.CS_SG_Section27_HeaderImage {
 grid-column-start: 2;
 grid-column-end: 14;
 grid-row-start: 58;
@@ -1629,7 +1629,7 @@ flex-direction: column;
 }
 
 /* section 28 : problem 1 image  */
-.page3_Section28_HeaderImage {
+.CS_SG_Section28_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 59;
@@ -1641,7 +1641,7 @@ flex-direction: column;
   margin-bottom: 40px;
 }
 
-.page3_Section28_HeaderImage__img {
+.CS_SG_Section28_HeaderImage__img {
   max-width: 100%; /* Prevent the image from exceeding the container's width */
   height: auto; /* Maintain the aspect ratio */
 }
@@ -1649,7 +1649,7 @@ flex-direction: column;
 
 
 /* Section 29 : Flow Chart text  */
-.page3_Section29_HeaderImage {
+.CS_SG_Section29_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 61;
@@ -1664,7 +1664,7 @@ flex-direction: column;
 
 
 /* section 30  : Flow Chart  image  */
-.page3_Section30_HeaderImage {
+.CS_SG_Section30_HeaderImage {
   grid-column-start: 4;
   grid-column-end: 12;
   grid-row-start: 62;
@@ -1676,14 +1676,14 @@ flex-direction: column;
   margin-bottom: 0px;
 }
 
-.page3_Section30_HeaderImage__img {
+.CS_SG_Section30_HeaderImage__img {
   max-width: 100%; /* Prevent the image from exceeding the container's width */
   height: auto; /* Maintain the aspect ratio */
 }
 
 
 /* Section 31 : Flow Chart text  */
-.page3_Section31_HeaderImage {
+.CS_SG_Section31_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 63;
@@ -1698,7 +1698,7 @@ flex-direction: column;
 
 
 /* section 32  : wireframe  image 1 */
-.page3_Section32_HeaderImage {
+.CS_SG_Section32_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 64;
@@ -1710,13 +1710,13 @@ flex-direction: column;
   margin-bottom: 0px;
 }
 
-.page3_Section32_HeaderImage__img {
+.CS_SG_Section32_HeaderImage__img {
   max-width: 100%; /* Prevent the image from exceeding the container's width */
   height: auto; /* Maintain the aspect ratio */
 }
 
 /* section 33 : Wireframe image 2  */
-.page3_Section33_HeaderImage {
+.CS_SG_Section33_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 66;
@@ -1728,13 +1728,13 @@ flex-direction: column;
   margin-bottom: 0px;
 }
 
-.page3_Section33_HeaderImage__img {
+.CS_SG_Section33_HeaderImage__img {
   max-width: 100%; /* Prevent the image from exceeding the container's width */
   height: auto; /* Maintain the aspect ratio */
 }
 
 /* section 34 : wireframe Image 3 */
-.page3_Section34_HeaderImage {
+.CS_SG_Section34_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 68;
@@ -1748,7 +1748,7 @@ flex-direction: column;
 
 
 /* section 35 : wireframe Image 4 */
-.page3_Section35_HeaderImage {
+.CS_SG_Section35_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 70;
@@ -1761,7 +1761,7 @@ flex-direction: column;
 }
 
 /* section 36 : wireframe Image 5 */
-.page3_Section36_HeaderImage {
+.CS_SG_Section36_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 72;
@@ -1775,7 +1775,7 @@ flex-direction: column;
 
 
 /* section 37 : wireframe Image 6 */
-.page3_Section37_HeaderImage {
+.CS_SG_Section37_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 74;
@@ -1788,7 +1788,7 @@ flex-direction: column;
 }
 
 /* section 38 : wireframe Image 7 */
-.page3_Section38_HeaderImage {
+.CS_SG_Section38_HeaderImage {
   grid-column-start: 2;
   grid-column-end: 14;
   grid-row-start: 76;
