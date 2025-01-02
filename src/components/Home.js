@@ -55,7 +55,7 @@ function Home() {
                           In the past, I have worked as a freelancer on <span class="white-word"> Fiverr</span>, focusing on problem-solving from concept
                           to productization. I also have experience in <span class="white-word"> Entrepreneurship</span> within the software industry. 
                           As a product designer with a background in <span class="white-word"> IT Engineering</span>, I have created <span class="white-word"> 31+ product designs </span> 
-                          for clients from <span class="white-word"> 8+ countries</span>.
+                          for clients from <span class="white-word"> 9 countries</span>, both online and onsite.
                           </h1>
                      </div>  
         </div>
@@ -138,12 +138,12 @@ function Home() {
 
 <div className='Card1_Section_image_for4'>
                   <div>
-                      <img src={`${process.env.PUBLIC_URL}/EasyWorkCard.jpg`} alt="Description of Image"className='CardImage'/>
+                      <img src={`${process.env.PUBLIC_URL}/EasyWorkCard2.jpg`} alt="Description of Image"className='CardImage'onClick={handleKnowMoreClick}/>
                   </div>
               </div>
 
         <div className='Card1_SectonInfo_Right_for4'>
-            <div className='CardTitle'>
+            <div className='CardTitle' >
             EasyWork
             </div>
             <div className='CardDescription'>
@@ -158,7 +158,7 @@ function Home() {
   {/* Card 5 */}
   <div className='Card1_Section_image_for5'>
         <div>
-            <img src={`${process.env.PUBLIC_URL}/Pocus-2.png`} alt="Description of Image"className='CardImage'/>
+            <img src={`${process.env.PUBLIC_URL}/Pocus02.gif`} alt="Description of Image"className='CardImage' onClick={handleKnowMoreClickPocus}/>
         </div>
     </div>
 
@@ -180,7 +180,7 @@ function Home() {
 
 <div className='Card1_Section_image_for6'>
                   <div>
-                      <img src={`${process.env.PUBLIC_URL}/NEWS.png`} alt="Description of Image"className='CardImage'/>
+                      <img src={`${process.env.PUBLIC_URL}/NEWS.png`} alt="Description of Image"className='CardImage'onClick={handleKnowMoreClickSG} />
                   </div>
               </div>
 

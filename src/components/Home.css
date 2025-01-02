@@ -332,7 +332,7 @@ Section 2
   grid-row-start: 10;
   grid-row-end: 11;
   height: 350px;
-  /* overflow: hidden; Prevents overflow */
+  /* overflow: hidden; /*Prevents overflow */
  }
  
  .Card1_SectonInfo_Right_for5{
@@ -608,6 +608,7 @@ Section 2
   grid-row-end: 17;
   height: 220px;
   /* overflow: hidden;  */
+  margin-bottom: 30px;
  }
  
  .Card1_SectonInfo_Right_for5{
@@ -621,7 +622,7 @@ Section 2
   align-items: flex-start;
   padding-left: 0px;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   /* overflow: hidden; */
   /* height: 50px; */
  }

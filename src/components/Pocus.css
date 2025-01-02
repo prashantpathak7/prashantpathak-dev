@@ -61,8 +61,9 @@
     align-items: left;
     font-size: 18px;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 180%;
     text-align: left;
+    padding-bottom: 50px;
   }
   
   /* {section 3 : header image includes 3 wireframes } */
@@ -75,6 +76,7 @@
     justify-content: center; /* Optional, center-align the image */
     align-items: center; /* Optional, center-align vertically */
     overflow: hidden; /* Prevent content overflow */
+    /* max-height: 300px; */
   }
   
   .CS_Pocus_HeaderImage__img {
@@ -93,7 +95,7 @@
     background: #eff1ff;
     /* height: 400px; */
     /* padding-bottom: 430px; */
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 10px;
   }
   
@@ -118,7 +120,7 @@
     grid-column-end: 9;
     grid-row-start: 5;
     grid-row-end: 6;
-    margin-top: 80px;
+    margin-top: 120px;
     display: flex;
     justify-self: flex-start;
     flex-direction: column;
@@ -131,7 +133,7 @@
     grid-column-end: 14;
     grid-row-start: 5;
     grid-row-end: 6;
-    margin-top: 80px;
+    margin-top: 120px;
     display: flex;
     justify-self: flex-start;
     flex-direction: column;
@@ -215,47 +217,13 @@
     color: #3452E6;
   }
 
-  /* section 6 : Image for Userpainpoints  */
-  .CS_Pocus_Section8_HeaderImage {
-    grid-column-start: 2;
-    grid-column-end: 14;
-    grid-row-start: 7;
-    grid-row-end: 8;
-    display: flex; /* Optional, for alignment purposes */
-    justify-content: center; /* Optional, center-align the image */
-    align-items: center; /* Optional, center-align vertically */
-    overflow: hidden; /* Prevent content overflow */
-    /* margin-bottom: 40px; */
-  }
-  
-  .CS_Pocus_Section8_HeaderImage__img {
-    max-width: 100%; /* Prevent the image from exceeding the container's width */
-    height: auto; /* Maintain the aspect ratio */
-  }
-
-  /* section 7 : Officer query   */
-  .CS_Pocus_SectionOfficerQuery_background{
-    grid-column-start: 1;
-    grid-column-end: 15;
-    grid-row-start: 8;
-    grid-row-end: 12;
-    background: #eff1ff;
-  }
-
-  .CS_Pocus_SectionOfficerQuery_Image{
-    grid-column-start: 2;
-    grid-column-end: 14;
-    grid-row-start: 9;
-    grid-row-end: 12;
-   }
-
       /* section 8 : Design Process  */
 
       .CS_Pocus_Section7_Text_Left{
         grid-column-start: 2;
         grid-column-end: 5;
-        grid-row-start: 13;
-        grid-row-end: 15;
+        grid-row-start: 8;
+        grid-row-end: 9;
         font-size: 24px;
         font-weight: 600;
         text-align: left;
@@ -267,8 +235,8 @@
       .CS_Pocus_Section7_Text_Right{
         grid-column-start: 5;
         grid-column-end: 14;
-        grid-row-start: 13;
-        grid-row-end: 15;
+        grid-row-start: 8;
+        grid-row-end: 9;
         font-size: 18px;
         font-weight: 400;
         text-align: left;
@@ -344,8 +312,8 @@
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
     grid-column-end: 6;
-    grid-row-start: 20;
-    grid-row-end: 21;
+    grid-row-start: 10;
+    grid-row-end: 11;
     display: flex;
     align-items: left;
     font-size: 24px;
@@ -360,14 +328,45 @@
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 5;
     grid-column-end: 14;
-    grid-row-start: 20;
-    grid-row-end: 21;
+    grid-row-start: 10;
+    grid-row-end: 11;
     font-size: 18px;
     font-weight: 400;
     text-align: left;
     line-height: 150%;
     color: #1e1e1e;
+    margin-top: 20px;
+  }
+
+   /* section 10.1 : Phase 1 implementation highlights  */
+   .CS_Pocus_Header_Section10_2 {
+    /* background-color: rgb(190, 190, 236); */
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    display: flex;
+    align-items: left;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
     margin-top: 40px;
+    line-height: 150%;
+    color: #3452E6;
+  }
+  
+  .CS_Pocus_Description_Section10_2 {
+    /* background-color: rgb(190, 190, 236); */
+    grid-column-start: 5;
+    grid-column-end: 14;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 150%;
+    color: #1e1e1e;
+    margin-top: 20px;
   }
 
   
@@ -386,8 +385,8 @@
     .CS_Pocus_Section9_HeaderImage {
       grid-column-start: 2;
       grid-column-end: 14;
-      grid-row-start: 22;
-      grid-row-end: 23;
+      grid-row-start: 11;
+      grid-row-end: 12;
       display: flex; /* Optional, for alignment purposes */
       justify-content: center; /* Optional, center-align the image */
       align-items: center; /* Optional, center-align vertically */
@@ -400,6 +399,37 @@
       max-width: 100%; /* Prevent the image from exceeding the container's width */
       height: auto; /* Maintain the aspect ratio */
     }
+
+       /* section 10.1 : Phase 1 implementation highlights  */
+   .CS_Pocus_Header_Section10_2{
+    /* background-color: rgb(190, 190, 236); */
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 13;
+    grid-row-end: 14;
+    display: flex;
+    align-items: left;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 40px;
+    line-height: 150%;
+    color: #3452E6;
+  }
+  
+  .CS_Pocus_Description_Section10_2 {
+    /* background-color: rgb(190, 190, 236); */
+    grid-column-start: 5;
+    grid-column-end: 14;
+    grid-row-start: 13;
+    grid-row-end: 14;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 150%;
+    color: #1e1e1e;
+    margin-top: 20px;
+  }
 
 
         /* Section 12: dashboard image  */
@@ -418,8 +448,8 @@
         .CS_Pocus_Section12_HeaderImage {
           grid-column-start: 2;
           grid-column-end: 14;
-          grid-row-start: 24;
-          grid-row-end: 25;
+          grid-row-start: 14;
+          grid-row-end: 15;
           display: flex; /* Optional, for alignment purposes */
           justify-content: left; /* Optional, center-align the image */
           align-items: left; /* Optional, center-align vertically */
@@ -432,483 +462,44 @@
           max-width: 100%; /* Prevent the image from exceeding the container's width */
           height: auto; /* Maintain the aspect ratio */
         }
+
+
+        /* Section 13: Hifi options  */
+
   
-    
-        /* Section 13: dashboard image  */
         .CS_Pocus_Section13_HeaderImage {
           grid-column-start: 2;
           grid-column-end: 14;
-          grid-row-start: 26;
-          grid-row-end: 27;
+          grid-row-start: 15;
+          grid-row-end: 16;
           display: flex; /* Optional, for alignment purposes */
-          justify-content: center; /* Optional, center-align the image */
-          align-items: center; /* Optional, center-align vertically */
+          justify-content: left; /* Optional, center-align the image */
+          align-items: left; /* Optional, center-align vertically */
           overflow: hidden; /* Prevent content overflow */
           /* margin-bottom: 40px; */
           flex-direction: column;
+          margin-top: 50px;
         }
         
-        .CS_Pocus_Section13_HeaderImage__img {
-          max-width: 100%; /* Prevent the image from exceeding the container's width */
-          height: auto; /* Maintain the aspect ratio */
-        }
-    
+  
 
-  /* Section 13: rack image  */
+        /* Section 14: Hifi   */
+
+  
         .CS_Pocus_Section14_HeaderImage {
           grid-column-start: 2;
           grid-column-end: 14;
-          grid-row-start: 29;
-          grid-row-end: 30;
+          grid-row-start: 17;
+          grid-row-end: 18;
           display: flex; /* Optional, for alignment purposes */
-          justify-content: center; /* Optional, center-align the image */
-          align-items: center; /* Optional, center-align vertically */
+          justify-content: left; /* Optional, center-align the image */
+          align-items: left; /* Optional, center-align vertically */
           overflow: hidden; /* Prevent content overflow */
-          margin-bottom: 40px;
+          /* margin-bottom: 40px; */
           flex-direction: column;
+          margin-top: 50px;
         }
-        
-        .CS_Pocus_Section14_HeaderImage__img {
-          max-width: 100%; /* Prevent the image from exceeding the container's width */
-          height: auto; /* Maintain the aspect ratio */
-        }
-
-    /* Section 15: rack image  */
-    .CS_Pocus_Section15_HeaderImage {
-      grid-column-start: 2;
-      grid-column-end: 14;
-      grid-row-start: 31;
-      grid-row-end: 32;
-      display: flex; /* Optional, for alignment purposes */
-      justify-content: center; /* Optional, center-align the image */
-      align-items: center; /* Optional, center-align vertically */
-      overflow: hidden; /* Prevent content overflow */
-      margin-bottom: 40px;
-      flex-direction: column;
-    }
     
-    .CS_Pocus_Section15_HeaderImage__img {
-      max-width: 100%; /* Prevent the image from exceeding the container's width */
-      height: auto; /* Maintain the aspect ratio */
-    }
-
-      /* Section 16: rack image  */
-      .CS_Pocus_Section16_HeaderImage {
-        grid-column-start: 2;
-        grid-column-end: 14;
-        grid-row-start: 33;
-        grid-row-end: 34;
-        display: flex; /* Optional, for alignment purposes */
-        justify-content: center; /* Optional, center-align the image */
-        align-items: center; /* Optional, center-align vertically */
-        overflow: hidden; /* Prevent content overflow */
-        margin-bottom: 40px;
-        flex-direction: column;
-      }
-      
-      .CS_Pocus_Section16_HeaderImage__img {
-        max-width: 100%; /* Prevent the image from exceeding the container's width */
-        height: auto; /* Maintain the aspect ratio */
-      }  
-
-
-/* section 17 : answer from officer image  */
-.CS_Pocus_SectionOfficerAnswer_background{
-  grid-column-start: 1;
-  grid-column-end: 15;
-  grid-row-start: 35;
-  grid-row-end: 39;
-  background: #eff1ff;  
-}
-
-.CS_Pocus_SectionOfficerAnswer_Image{
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 36;
-  grid-row-end: 39;
- }
-
- /* section 18 : problems in phase one  */
-
- .CS_Pocus_Header_Section18 {
-  grid-column-start: 2;
-  grid-column-end: 6;
-  grid-row-start: 40;
-  grid-row-end: 41;
-  display: flex;
-  align-items: left;
-  font-size: 24px;
-  font-weight: 600;
-  text-align: left;
-  margin-top: 40px;
-  line-height: 150%;
-  color: #3452E6;
-}
-
-.CS_Pocus_Description_Section18 {
-  grid-column-start: 5;
-  grid-column-end: 14;
-  grid-row-start: 40;
-  grid-row-end: 41;
-  font-size: 18px;
-  font-weight: 400;
-  text-align: left;
-  line-height: 150%;
-  color: #1e1e1e;
-  margin-top: 40px;
-}
-
-/* Section 19: Problem 1  */
-.CS_Pocus_Section19_HeaderImage {
-grid-column-start: 2;
-grid-column-end: 14;
-grid-row-start: 42;
-grid-row-end: 44;
-display: flex; /* Optional, for alignment purposes */
-justify-content: center; /* Optional, center-align the image */
-align-items: center; /* Optional, center-align vertically */
-overflow: hidden; /* Prevent content overflow */
-/* margin-bottom: 40px; */
-flex-direction: column;
-}
-
-/* section 20 : problem 1 image  */
-.CS_Pocus_Section20_HeaderImage {
-  grid-column-start: 4;
-  grid-column-end: 12;
-  grid-row-start: 44;
-  grid-row-end: 45;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 40px;
-}
-
-.CS_Pocus_Section20_HeaderImage__img {
-  max-width: 100%; /* Prevent the image from exceeding the container's width */
-  height: auto; /* Maintain the aspect ratio */
-}
-
-/* Section 21: Problem 2 text  */
-.CS_Pocus_Section21_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 46;
-  grid-row-end: 47;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  /* margin-bottom: 40px; */
-  flex-direction: column;
-  }
-  
-  /* section 22 : problem 1 image  */
-  .CS_Pocus_Section22_HeaderImage {
-    grid-column-start: 4;
-    grid-column-end: 12;
-    grid-row-start: 47;
-    grid-row-end: 48;
-    display: flex; /* Optional, for alignment purposes */
-    justify-content: center; /* Optional, center-align the image */
-    align-items: center; /* Optional, center-align vertically */
-    overflow: hidden; /* Prevent content overflow */
-    margin-bottom: 40px;
-  }
-  
-  .CS_Pocus_Section22_HeaderImage__img {
-    max-width: 100%; /* Prevent the image from exceeding the container's width */
-    height: auto; /* Maintain the aspect ratio */
-  }
-  
-
-
-/* Section 23: Problem 1 text  */
-.CS_Pocus_Section23_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 49;
-  grid-row-end: 50;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: left; /* Optional, center-align the image */
-  align-items: left; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  /* margin-bottom: 40px; */
-  flex-direction: column;
-  }
-  
-  /* section 24 : problem 1 image  */
-  .CS_Pocus_Section24_HeaderImage {
-    grid-column-start: 4;
-    grid-column-end: 12;
-    grid-row-start: 50;
-    grid-row-end: 51;
-    display: flex; /* Optional, for alignment purposes */
-    justify-content: center; /* Optional, center-align the image */
-    align-items: center; /* Optional, center-align vertically */
-    overflow: hidden; /* Prevent content overflow */
-    margin-bottom: 40px;
-  }
-  
-  .CS_Pocus_Section24_HeaderImage__img {
-    max-width: 100%; /* Prevent the image from exceeding the container's width */
-    height: auto; /* Maintain the aspect ratio */
-  }
-  
-    
-  /* section 25 : Key Insights  */
-  .CS_Pocus_Section25_background{
-    grid-column-start: 1;
-    grid-column-end: 15;
-    grid-row-start: 52;
-    grid-row-end: 55;
-    background: #eff1ff;
-  }
-
-  .CS_Pocus_Section25_Text{
-    grid-column-start: 4;
-    grid-column-end: 12;
-    grid-row-start: 53;
-    grid-row-end: 54;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    line-height: 160%;
-    padding-bottom: 20px;
-
-    padding-top: 15px;
-    color: #000000;
-    margin-bottom: 40px;
-  }
-
-  .CS_Pocus_Section25_Header{
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 160%;
-    color: #3452E6;
-    margin-top: 50px;
-  }
-
-  /* phase 2 start  */
- /* section 26 : phase 2 tag line   */
-
- .CS_Pocus_Header_Section26 {
-  grid-column-start: 2;
-  grid-column-end: 6;
-  grid-row-start: 55;
-  grid-row-end: 56;
-  display: flex;
-  align-items: left;
-  font-size: 24px;
-  font-weight: 600;
-  text-align: left;
-  margin-top: 40px;
-  line-height: 150%;
-  color: #3452E6;
-}
-
-.CS_Pocus_Description_Section26 {
-  grid-column-start: 5;
-  grid-column-end: 14;
-  grid-row-start: 55;
-  grid-row-end: 56;
-  font-size: 18px;
-  font-weight: 400;
-  text-align: left;
-  line-height: 150%;
-  color: #1e1e1e;
-  margin-top: 40px;
-}
-
-/* Section 27 : Problem 1  */
-.CS_Pocus_Section27_HeaderImage {
-grid-column-start: 2;
-grid-column-end: 14;
-grid-row-start: 57;
-grid-row-end: 59;
-display: flex; /* Optional, for alignment purposes */
-justify-content: left; /* Optional, center-align the image */
-align-items: left; /* Optional, center-align vertically */
-overflow: hidden; /* Prevent content overflow */
-/* margin-bottom: 40px; */
-flex-direction: column;
-}
-
-/* section 28 : problem 1 image  */
-.CS_Pocus_Section28_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 59;
-  grid-row-end: 60;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 40px;
-}
-
-.CS_Pocus_Section28_HeaderImage__img {
-  max-width: 100%; /* Prevent the image from exceeding the container's width */
-  height: auto; /* Maintain the aspect ratio */
-}
-
-
-
-/* Section 29 : Flow Chart text  */
-.CS_Pocus_Section29_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 61;
-  grid-row-end: 63;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: left; /* Optional, center-align the image */
-  align-items: left; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  /* margin-bottom: 40px; */
-  flex-direction: column;
-  }
-
-
-/* section 30  : Flow Chart  image  */
-.CS_Pocus_Section30_HeaderImage {
-  grid-column-start: 4;
-  grid-column-end: 12;
-  grid-row-start: 63;
-  grid-row-end: 64;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 0px;
-}
-
-.CS_Pocus_Section30_HeaderImage__img {
-  max-width: 100%; /* Prevent the image from exceeding the container's width */
-  height: auto; /* Maintain the aspect ratio */
-}
-
-
-/* Section 31 : wireframe Chart text  */
-.CS_Pocus_Section31_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 64;
-  grid-row-end: 65;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: left; /* Optional, center-align the image */
-  align-items: left; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  /* margin-bottom: 40px; */
-  flex-direction: column;
-  }
-
-
-/* section 32  : wireframe  image 1 */
-.CS_Pocus_Section32_HeaderImage {
-  grid-column-start: 3;
-  grid-column-end: 13;
-  grid-row-start: 65;
-  grid-row-end: 66;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 30px;
-}
-
-.CS_Pocus_Section32_HeaderImage__img {
-  max-width: 100%; /* Prevent the image from exceeding the container's width */
-  height: auto; /* Maintain the aspect ratio */
-}
-
-/* section 33 : Wireframe image 2  */
-.CS_Pocus_Section33_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 67;
-  grid-row-end: 68;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 30px;
-}
-
-.CS_Pocus_Section33_HeaderImage__img {
-  max-width: 100%; /* Prevent the image from exceeding the container's width */
-  height: auto; /* Maintain the aspect ratio */
-}
-
-/* section 34 : wireframe Image 3 */
-.CS_Pocus_Section34_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 68;
-  grid-row-end: 69;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 30px;
-}
-
-
-/* section 35 : wireframe Image 4 */
-.CS_Pocus_Section35_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 70;
-  grid-row-end: 71;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 30px;
-}
-
-/* section 36 : wireframe Image 5 */
-.CS_Pocus_Section36_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 72;
-  grid-row-end: 73;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 30px;
-}
-
-/* section 37 : wireframe Image 6 */
-.CS_Pocus_Section37_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 74;
-  grid-row-end: 75;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 30px;
-}
-
-/* section 38 : wireframe Image 7 */
-.CS_Pocus_Section38_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 76;
-  grid-row-end: 77;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 30px;
-}
-
-
-
   @media (max-width: 480px) {
     /* Add responsive styles here */
 
@@ -965,6 +556,7 @@ flex-direction: column;
     line-height: 150%;
     text-align: left;
     margin-bottom: 30px;
+    padding-bottom: 0px;
   }
 
   /* {section 3 : header image includes 3 wireframes } */
@@ -1104,53 +696,18 @@ flex-direction: column;
     color: black;
   }
 
-
   .CS_Pocus_BodyText_Highlight_Blue {
     font-weight: 700;
     color: #3452E6;
   }
-
-  /* section 6 : Image for Userpainpoints  */
-  .CS_Pocus_Section8_HeaderImage {
-    grid-column-start: 2;
-    grid-column-end: 14;
-    grid-row-start: 11;
-    grid-row-end: 12;
-    display: flex; /* Optional, for alignment purposes */
-    justify-content: center; /* Optional, center-align the image */
-    align-items: center; /* Optional, center-align vertically */
-    overflow: hidden; /* Prevent content overflow */
-    /* margin-bottom: 40px; */
-  }
-  
-  .CS_Pocus_Section8_HeaderImage__img {
-    max-width: 100%; /* Prevent the image from exceeding the container's width */
-    height: auto; /* Maintain the aspect ratio */
-  }
-
-  /* section 7 : Officer query   */
-  .CS_Pocus_SectionOfficerQuery_background{
-    grid-column-start: 1;
-    grid-column-end: 15;
-    grid-row-start: 13;
-    grid-row-end: 16;
-    background: #eff1ff;
-  }
-
-  .CS_Pocus_SectionOfficerQuery_Image{
-    grid-column-start: 1;
-    grid-column-end: 15;
-    grid-row-start: 14;
-    grid-row-end: 16;
-   }
 
   /* section 8 : Design Process  */
 
   .CS_Pocus_Section7_Text_Left{
     grid-column-start: 2;
     grid-column-end: 14;
-    grid-row-start: 17;
-    grid-row-end: 18;
+    grid-row-start: 12;
+    grid-row-end: 13;
     font-size: 20px;
     font-weight: 600;
     text-align: left;
@@ -1162,8 +719,8 @@ flex-direction: column;
   .CS_Pocus_Section7_Text_Right{
     grid-column-start: 2;
     grid-column-end: 14;
-    grid-row-start: 18;
-    grid-row-end: 19;
+    grid-row-start: 13;
+    grid-row-end: 14;
     font-size: 18px;
     font-weight: 400;
     text-align: left;
@@ -1239,14 +796,14 @@ flex-direction: column;
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
     grid-column-end: 12;
-    grid-row-start: 23;
-    grid-row-end: 24;
+    grid-row-start: 22;
+    grid-row-end: 23;
     display: flex;
     align-items: left;
     font-size: 20px;
     font-weight: 600;
     text-align: left;
-    margin-top: 50px;
+    margin-top: 0px;
     line-height: 150%;
     color: #3452E6;
   }
@@ -1255,8 +812,8 @@ flex-direction: column;
     /* background-color: rgb(190, 190, 236); */
     grid-column-start: 2;
     grid-column-end: 14;
-    grid-row-start: 24;
-    grid-row-end: 25;
+    grid-row-start: 23;
+    grid-row-end: 24;
     font-size: 16px;
     font-weight: 400;
     text-align: left;
@@ -1264,6 +821,37 @@ flex-direction: column;
     color: #1e1e1e;
     margin-top: 0px;
   }
+
+    /* section 10 : Phase 1 implementation highlights  */
+    .CS_Pocus_Header_Section10_2 {
+      /* background-color: rgb(190, 190, 236); */
+      grid-column-start: 2;
+      grid-column-end: 12;
+      grid-row-start: 25;
+      grid-row-end: 26;
+      display: flex;
+      align-items: left;
+      font-size: 20px;
+      font-weight: 600;
+      text-align: left;
+      margin-top: 50px;
+      line-height: 150%;
+      color: #3452E6;
+    }
+    
+    .CS_Pocus_Description_Section10_2 {
+      /* background-color: rgb(190, 190, 236); */
+      grid-column-start: 2;
+      grid-column-end: 14;
+      grid-row-start: 26;
+      grid-row-end: 27;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: left;
+      line-height: 150%;
+      color: #1e1e1e;
+      margin-top: 0px;
+    }
 
   
     /* Section 11: dashboard image  */
@@ -1280,8 +868,8 @@ flex-direction: column;
   .CS_Pocus_Section9_HeaderImage {
     grid-column-start: 2;
     grid-column-end: 14;
-    grid-row-start: 25;
-    grid-row-end: 26;
+    grid-row-start: 24;
+    grid-row-end: 25;
     display: flex; /* Optional, for alignment purposes */
     justify-content: center; /* Optional, center-align the image */
     align-items: center; /* Optional, center-align vertically */
@@ -1326,482 +914,44 @@ flex-direction: column;
   }
 
 
-  /* Section 13: dashboard image  */
+  /* Section 13: Hifi options  */
+
+
   .CS_Pocus_Section13_HeaderImage {
     grid-column-start: 2;
     grid-column-end: 14;
     grid-row-start: 29;
     grid-row-end: 30;
     display: flex; /* Optional, for alignment purposes */
-    justify-content: center; /* Optional, center-align the image */
-    align-items: center; /* Optional, center-align vertically */
+    justify-content: left; /* Optional, center-align the image */
+    align-items: left; /* Optional, center-align vertically */
     overflow: hidden; /* Prevent content overflow */
     /* margin-bottom: 40px; */
     flex-direction: column;
-  }
-  
-  .CS_Pocus_Section13_HeaderImage__img {
-    max-width: 100%; /* Prevent the image from exceeding the container's width */
-    height: auto; /* Maintain the aspect ratio */
-  }
-
-
-  /* Section 13: rack image  */
-        .CS_Pocus_Section14_HeaderImage {
-          grid-column-start: 2;
-          grid-column-end: 14;
-          grid-row-start: 30;
-          grid-row-end: 31;
-          display: flex; /* Optional, for alignment purposes */
-          justify-content: center; /* Optional, center-align the image */
-          align-items: center; /* Optional, center-align vertically */
-          overflow: hidden; /* Prevent content overflow */
-          margin-bottom: 0px;
-          flex-direction: column;
-        }
-        
-        .CS_Pocus_Section14_HeaderImage__img {
-          max-width: 100%; /* Prevent the image from exceeding the container's width */
-          height: auto; /* Maintain the aspect ratio */
-        }
-
-    /* Section 15: rack image  */
-    .CS_Pocus_Section15_HeaderImage {
-      grid-column-start: 2;
-      grid-column-end: 14;
-      grid-row-start: 32;
-      grid-row-end: 33;
-      display: flex; /* Optional, for alignment purposes */
-      justify-content: center; /* Optional, center-align the image */
-      align-items: center; /* Optional, center-align vertically */
-      overflow: hidden; /* Prevent content overflow */
-      margin-bottom: 0px;
-      flex-direction: column;
-    }
     
-    .CS_Pocus_Section15_HeaderImage__img {
-      max-width: 100%; /* Prevent the image from exceeding the container's width */
-      height: auto; /* Maintain the aspect ratio */
-    }
-
-      /* Section 16: rack image  */
-      .CS_Pocus_Section16_HeaderImage {
-        grid-column-start: 2;
-        grid-column-end: 14;
-        grid-row-start: 34;
-        grid-row-end: 35;
-        display: flex; /* Optional, for alignment purposes */
-        justify-content: center; /* Optional, center-align the image */
-        align-items: center; /* Optional, center-align vertically */
-        overflow: hidden; /* Prevent content overflow */
-        margin-bottom: 0px;
-        flex-direction: column;
-      }
-      
-      .CS_Pocus_Section16_HeaderImage__img {
-        max-width: 100%; /* Prevent the image from exceeding the container's width */
-        height: auto; /* Maintain the aspect ratio */
-      }  
-
-
-/* section 17 : answer from officer image  */
-.CS_Pocus_SectionOfficerAnswer_background{
-  grid-column-start: 1;
-  grid-column-end: 15;
-  grid-row-start: 36;
-  grid-row-end: 39;
-  background: #eff1ff;  
-}
-
-.CS_Pocus_SectionOfficerAnswer_Image{
-  grid-column-start: 1;
-  grid-column-end: 15;
-  grid-row-start: 37;
-  grid-row-end: 39;
- }
-
- /* section 18 : problems in phase one  */
-
- .CS_Pocus_Header_Section18 {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 40;
-  grid-row-end: 41;
-  display: flex;
-  align-items: left;
-  font-size: 18px;
-  font-weight: 600;
-  text-align: left;
-  margin-top: 40px;
-  line-height: 150%;
-  color: #3452E6;
-}
-
-.CS_Pocus_Description_Section18 {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 41;
-  grid-row-end: 43;
-  font-size: 16px;
-  font-weight: 400;
-  text-align: left;
-  line-height: 150%;
-  color: #1e1e1e;
-  margin-top: 0px;
-}
-
-/* Section 19: Problem 1  */
-.CS_Pocus_Section19_HeaderImage {
-grid-column-start: 2;
-grid-column-end: 14;
-grid-row-start: 43;
-grid-row-end: 44;
-display: flex; /* Optional, for alignment purposes */
-justify-content: center; /* Optional, center-align the image */
-align-items: center; /* Optional, center-align vertically */
-overflow: hidden; /* Prevent content overflow */
-/* margin-bottom: 40px; */
-flex-direction: column;
-}
-
-/* section 20 : problem 1 image  */
-.CS_Pocus_Section20_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 45;
-  grid-row-end: 46;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 0px;
-}
-
-.CS_Pocus_Section20_HeaderImage__img {
-  max-width: 100%; /* Prevent the image from exceeding the container's width */
-  height: auto; /* Maintain the aspect ratio */
-}
-
-/* Section 21: Problem 2 text  */
-.CS_Pocus_Section21_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 47;
-  grid-row-end: 48;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  /* margin-bottom: 40px; */
-  flex-direction: column;
+    margin-top: 10px;
   }
-  
-  /* section 22 : problem 1 image  */
-  .CS_Pocus_Section22_HeaderImage {
-    grid-column-start: 4;
-    grid-column-end: 12;
-    grid-row-start: 48;
-    grid-row-end: 49;
-    display: flex; /* Optional, for alignment purposes */
-    justify-content: center; /* Optional, center-align the image */
-    align-items: center; /* Optional, center-align vertically */
-    overflow: hidden; /* Prevent content overflow */
-    margin-bottom: 0px;
-  }
-  
-  .CS_Pocus_Section22_HeaderImage__img {
-    max-width: 100%; /* Prevent the image from exceeding the container's width */
-    height: auto; /* Maintain the aspect ratio */
-  }
-  
 
-
-/* Section 23: Problem 1 text  */
-.CS_Pocus_Section23_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 50;
-  grid-row-end: 51;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: left; /* Optional, center-align the image */
-  align-items: left; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  /* margin-bottom: 40px; */
-  flex-direction: column;
-  }
-  
-  /* section 24 : problem 1 image  */
-  .CS_Pocus_Section24_HeaderImage {
-    grid-column-start: 4;
-    grid-column-end: 12;
-    grid-row-start: 51;
-    grid-row-end: 52;
-    display: flex; /* Optional, for alignment purposes */
-    justify-content: center; /* Optional, center-align the image */
-    align-items: center; /* Optional, center-align vertically */
-    overflow: hidden; /* Prevent content overflow */
-    margin-bottom: 0px;
-  }
-  
-  .CS_Pocus_Section24_HeaderImage__img {
-    max-width: 100%; /* Prevent the image from exceeding the container's width */
-    height: auto; /* Maintain the aspect ratio */
-  }
-  
     
-  /* section 25 : Key Insights  */
-  .CS_Pocus_Section25_background{
-    grid-column-start: 1;
-    grid-column-end: 15;
-    grid-row-start: 53;
-    grid-row-end: 56;
-    background: #eff1ff;
-  }
 
-  .CS_Pocus_Section25_Text{
+  /* Section 13: Hifi options  */
+
+
+  .CS_Pocus_Section14_HeaderImage {
     grid-column-start: 2;
     grid-column-end: 14;
-    grid-row-start: 54;
-    grid-row-end: 55;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: left;
-    line-height: 150%;
-    padding-bottom: 10px;
-
-    padding-top: 15px;
-    color: #000000;
-    margin-bottom: 40px;
-  }
-
-  .CS_Pocus_Section25_Header{
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 160%;
-    color: #3452E6;
-    margin-top: 50px;
-  }
-
-  /* phase 2 start  */
- /* section 26 : phase 2 tag line   */
-
- .CS_Pocus_Header_Section26 {
-  grid-column-start: 2;
-  grid-column-end: 10;
-  grid-row-start: 56;
-  grid-row-end: 57;
-  display: flex;
-  align-items: left;
-  font-size: 20px;
-  font-weight: 600;
-  text-align: left;
-  margin-top: 40px;
-  line-height: 150%;
-  color: #3452E6;
-}
-
-.CS_Pocus_Description_Section26 {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 57;
-  grid-row-end: 58;
-  font-size: 18px;
-  font-weight: 400;
-  text-align: left;
-  line-height: 150%;
-  color: #1e1e1e;
-  margin-top: 0px;
-}
-
-/* Section 27 : Problem 1  */
-.CS_Pocus_Section27_HeaderImage {
-grid-column-start: 2;
-grid-column-end: 14;
-grid-row-start: 58;
-grid-row-end: 59;
-display: flex; /* Optional, for alignment purposes */
-justify-content: left; /* Optional, center-align the image */
-align-items: left; /* Optional, center-align vertically */
-overflow: hidden; /* Prevent content overflow */
-/* margin-bottom: 40px; */
-flex-direction: column;
-}
-
-/* section 28 : problem 1 image  */
-.CS_Pocus_Section28_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 59;
-  grid-row-end: 60;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 40px;
-}
-
-.CS_Pocus_Section28_HeaderImage__img {
-  max-width: 100%; /* Prevent the image from exceeding the container's width */
-  height: auto; /* Maintain the aspect ratio */
-}
-
-
-
-/* Section 29 : Flow Chart text  */
-.CS_Pocus_Section29_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 61;
-  grid-row-end: 62;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: left; /* Optional, center-align the image */
-  align-items: left; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  /* margin-bottom: 40px; */
-  flex-direction: column;
-  }
-
-
-/* section 30  : Flow Chart  image  */
-.CS_Pocus_Section30_HeaderImage {
-  grid-column-start: 4;
-  grid-column-end: 12;
-  grid-row-start: 62;
-  grid-row-end: 63;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 0px;
-}
-
-.CS_Pocus_Section30_HeaderImage__img {
-  max-width: 100%; /* Prevent the image from exceeding the container's width */
-  height: auto; /* Maintain the aspect ratio */
-}
-
-
-/* Section 31 : Flow Chart text  */
-.CS_Pocus_Section31_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 63;
-  grid-row-end: 64;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: left; /* Optional, center-align the image */
-  align-items: left; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  /* margin-bottom: 40px; */
-  flex-direction: column;
-  }
-
-
-/* section 32  : wireframe  image 1 */
-.CS_Pocus_Section32_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 64;
-  grid-row-end: 65;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 0px;
-}
-
-.CS_Pocus_Section32_HeaderImage__img {
-  max-width: 100%; /* Prevent the image from exceeding the container's width */
-  height: auto; /* Maintain the aspect ratio */
-}
-
-/* section 33 : Wireframe image 2  */
-.CS_Pocus_Section33_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 66;
-  grid-row-end: 67;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 0px;
-}
-
-.CS_Pocus_Section33_HeaderImage__img {
-  max-width: 100%; /* Prevent the image from exceeding the container's width */
-  height: auto; /* Maintain the aspect ratio */
-}
-
-/* section 34 : wireframe Image 3 */
-.CS_Pocus_Section34_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 68;
-  grid-row-end: 69;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 0px;
-}
-
-
-/* section 35 : wireframe Image 4 */
-.CS_Pocus_Section35_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 70;
-  grid-row-end: 71;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 0px;
-}
-
-/* section 36 : wireframe Image 5 */
-.CS_Pocus_Section36_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 72;
-  grid-row-end: 73;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 0px;
-}
-
-
-/* section 37 : wireframe Image 6 */
-.CS_Pocus_Section37_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 74;
-  grid-row-end: 75;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 40px;
-}
-
-/* section 38 : wireframe Image 7 */
-.CS_Pocus_Section38_HeaderImage {
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 76;
-  grid-row-end: 77;
-  display: flex; /* Optional, for alignment purposes */
-  justify-content: center; /* Optional, center-align the image */
-  align-items: center; /* Optional, center-align vertically */
-  overflow: hidden; /* Prevent content overflow */
-  margin-bottom: 40px;
-}
-
-
+    grid-row-start: 31;
+    grid-row-end: 32;
+    display: flex; /* Optional, for alignment purposes */
+    justify-content: left; /* Optional, center-align the image */
+    align-items: left; /* Optional, center-align vertically */
+    overflow: hidden; /* Prevent content overflow */
+    /* margin-bottom: 40px; */
+    flex-direction: column;
     
+    margin-top: 10px;
+  }
+
 
     
   }
