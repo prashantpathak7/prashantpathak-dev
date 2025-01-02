@@ -241,7 +241,7 @@ function CS1() {
 
     </div>
     <img
-    src={`${process.env.PUBLIC_URL}/Rac.png`}
+    src={`${process.env.PUBLIC_URL}/FlowOfflineOTP.jpg`}
     alt="Description of Image"
     className="page3_Section16_HeaderImage__img"/>
   </div>
