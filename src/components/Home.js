@@ -55,7 +55,7 @@ function Home() {
                           In the past, I have worked as a freelancer on <span class="white-word"> Fiverr</span>, focusing on problem-solving from concept
                           to productization. I also have experience in <span class="white-word"> Entrepreneurship</span> within the software industry. 
                           As a product designer with a background in <span class="white-word"> IT Engineering</span>, I have created <span class="white-word"> 31+ product designs </span> 
-                          for clients from <span class="white-word"> 9 countries</span>, both online and onsite.
+                          for clients from <span class="white-word"> 9 countries</span>.
                           </h1>
                      </div>  
         </div>

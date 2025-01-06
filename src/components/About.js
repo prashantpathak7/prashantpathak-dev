@@ -15,14 +15,14 @@ function About() {
         <div className='info1'>
           <h1 className='infoHeader'>
           Who am I?</h1>
-          <p className='infoText'> My name is Prashant, and I’m a Product Designer based in Pune with a background in IT engineering. I specialize in crafting intuitive and innovative user experiences, blending technical expertise with creative solutions to solve complex problems.</p>
+          <p className='infoText'> I’m Prashant Pathak, a Product Designer with a passion for blending creativity and technology to deliver exceptional user experiences. Based in Pune, I bring over six years of experience across diverse domains, combining my IT engineering background with design expertise to craft solutions that solve real-world challenges.</p>
         </div>
         
 
         <div className='info2'>
           <h1 className='infoHeader'>
           What do I do?</h1>
-          <p className='infoText'>As a technology enthusiast, I design seamless and user-friendly digital experiences. My IT engineering background allows me to approach design from both a technical and user-centered perspective. Currently, I'm working at Neilsoft, where I integrate diverse cultural insights to create impactful solutions.</p>
+          <p className='infoText'>I specialize in designing impactful and user-friendly digital products that bridge the gap between design and technology. At Neilsoft, I’ve had the opportunity to create end-to-end UX designs for innovative software solutions in the construction and energy sectors, driving efficiency and reducing costs. My work thrives at the intersection of strategy, collaboration, and design excellence.</p>
 
         </div>
         
@@ -30,7 +30,7 @@ function About() {
           <h1 className='infoHeader'>
           
         What am I passionate about?</h1>
-          <p className='infoText'>I'm passionate about creating user-centered designs that improve how people interact with technology. I love exploring new design trends and technologies to push the limits of what’s possible, ensuring every design decision is focused on enhancing the user experience and making a meaningful impact.</p>
+          <p className='infoText'>I’m deeply passionate about the power of design to transform how people interact with technology. From streamlining processes to making technology more accessible, I aim to create designs that are both meaningful and practical. Staying curious and exploring new trends allows me to push boundaries and ensure every design decision aligns with user needs and business goals.</p>
 
         </div>
    
