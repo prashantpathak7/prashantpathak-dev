@@ -1,5 +1,10 @@
 {
   "projects": {
-    "default": "prashantpathak-prod"
-  }
+    "default": "prashantpathak-prod",
+    "prod": "prashantpathak-prod",
+    "dev": "prashantpathak-dev-c13b7"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
