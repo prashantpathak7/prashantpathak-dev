@@ -15,7 +15,7 @@ function About() {
         <div className='info1'>
           <h1 className='infoHeader'>
           Who am I?</h1>
-          <p className='infoText'> I’m Prashant Pathak, a Product Designer with a passion for blending creativity and technology to deliver exceptional user experiences. Based in Pune, I bring over six years of experience across diverse domains, combining my IT engineering background with design expertise to craft solutions that solve real-world challenges.</p>
+          <p className='infoText'> I’m Prashant Pathak, a Product Designer with a passion for blending creativity and technology to deliver exceptional user experiences. Based in Pune, I bring over  2.5+ years of commercial experience and 4 years of entrepreneurial startup endeavors, totaling 6+ years in the field, combining my IT engineering background with design expertise to craft solutions that solve real-world challenges.</p>
         </div>
         
 

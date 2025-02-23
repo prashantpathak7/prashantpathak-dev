@@ -73,6 +73,7 @@ function Home() {
                 FEATURED WORK
               </div>
             
+
             {/* Card 1 */}
               <div className='Card1_Section_image'>
                   <div>
@@ -92,8 +93,9 @@ function Home() {
             </div>
         </div>
 
-{/* card 2 */}
 
+
+{/* card 2 */}
  <div className='Card1_Section_image_for2'>
                   <div>
                       <img src={`${process.env.PUBLIC_URL}/CM.png`} alt="Description of Image"className='CardImage' onClick={handleKnowMoreClickCM}/>
@@ -134,8 +136,8 @@ function Home() {
   </div>
 </div>
 
-{/* card 4 */}
 
+{/* card 4 */}
 <div className='Card1_Section_image_for4'>
                   <div>
                       <img src={`${process.env.PUBLIC_URL}/EasyWorkCard2.jpg`} alt="Description of Image"className='CardImage'onClick={handleKnowMoreClick}/>
@@ -177,7 +179,6 @@ function Home() {
 
 
 {/* card 6 */}
-
 <div className='Card1_Section_image_for6'>
                   <div>
                       <img src={`${process.env.PUBLIC_URL}/NEWS.png`} alt="Description of Image"className='CardImage'onClick={handleKnowMoreClickSG} />
@@ -195,10 +196,6 @@ function Home() {
                Know More 
             </div>
         </div>
-
-
-
-
  </div>
 
 </div> 

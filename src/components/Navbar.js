@@ -24,7 +24,7 @@ function Navbar() {
         <Link to="/" className={isActive('/')} onClick={() => setIsOpen(false)}>Home</Link>
         <Link to="/words" className={isActive('/words')} onClick={() => setIsOpen(false)}>Words</Link>
         <Link to="/about" className={isActive('/about')} onClick={() => setIsOpen(false)}>About Me</Link>
-        <a href="/Prashant Pathak Product Designer.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Resume</a>
+        <a href="/Prashant Pathak UX Designer.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Resume</a>
       </div>
       <div className="hamburger" onClick={toggleMenu}>
         <span className="bar"></span>
